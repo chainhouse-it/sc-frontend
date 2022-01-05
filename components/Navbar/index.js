@@ -1,14 +1,17 @@
 export default function Navbar() {
-    return (
-        <div className="w-screen flex flex-row justify-between items-center cursor-pointer px-48 pt-8 text-[#C1C1C1] font-sans" >
-            <p className="font-extraLight text-3xl" >BSH</p>
-            <div className="flex flex-row justify-between items-center w-1/3 font-medium text-md">
-                <span className="hover:underline underline-offset-2">About</span>
-                <span className="hover:underline underline-offset-2">Contact</span>
-                <span className="hover:underline underline-offset-2">Community</span>
-                <span className="hover:underline underline-offset-2">Work</span>
-                <span className="hover:underline underline-offset-2">ENG</span>
-            </div>
-        </div>
-    )
+	return (
+		<div className='w-screen flex flex-row justify-between items-center px-48 pt-12 text-[#C1C1C1] font-[Montserrat]'>
+			<p className='text-3xl font-light'>BSH</p>
+			<div className='flex flex-row items-center font-normal text-md cursor-pointer'>
+				<p className='px-6'>About</p>
+				<p className='px-6'>Contact</p>
+				<p className='px-6'>Community</p>
+				<p className='px-6'>Work</p>
+				<p className='px-16 flex flex-row items-center gap-2'>
+					ENG
+					<img src='/images/arrow.png' alt='' className='w-7 h-3' />
+				</p>
+			</div>
+		</div>
+	);
 }

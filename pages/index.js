@@ -1,9 +1,10 @@
 import Head from 'next/head';
-import Navbar from '../components/Navbar';
+import Hero from '../components/home/hero';
+import Navbar from '../components/shared/Navbar';
 
 export default function Home() {
 	return (
-		<div className='bg-[#0F0F0F] h-screen'>
+		<div className='bg-[#0F0F0F]'>
 			<Head>
 				<title>skilled chain frontend</title>
 				<meta
@@ -12,7 +13,10 @@ export default function Home() {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<Navbar />
+			<main>
+				<Navbar />
+				<Hero />
+			</main>
 		</div>
 	);
 }

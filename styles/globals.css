@@ -14,17 +14,31 @@ body {
 .rounded-none {
 	border-radius: 0;
 }
+
 .rounded-sm {
 	border-radius: 0.125rem;
 }
+
 .rounded {
 	border-radius: 0.25rem;
 }
+
 .rounded-lg {
 	border-radius: 0.5rem;
 }
+
 .rounded-full {
 	border-radius: 9999px;
+}
+
+.btn-primary {
+	padding: 0.25em 3em;
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	font-family: 'Montserrat';
+	border-radius: 999px;
+	border: 1px solid #fff;
 }
 
 @tailwind base;

@@ -1,9 +1,10 @@
 import Head from 'next/head';
+import Navbar from '../components/Navbar';
 
 export default function Home() {
 	const tab = [];
 	return (
-		<div>
+		<div className = "bg-[#0F0F0F] w-screen h-screen">
 			<Head>
 				<title>skilled chain frontend</title>
 				<meta
@@ -12,6 +13,7 @@ export default function Home() {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
+			<Navbar/>
 		</div>
 	);
 }

@@ -14,3 +14,19 @@ body {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 }
+
+.rounded-none {
+	border-radius: 0;
+}
+.rounded-sm {
+	border-radius: 0.125rem;
+}
+.rounded {
+	border-radius: 0.25rem;
+}
+.rounded-lg {
+	border-radius: 0.5rem;
+}
+.rounded-full {
+	border-radius: 9999px;
+}

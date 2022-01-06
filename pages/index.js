@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Hero from '../components/home/hero';
 import Navbar from '../components/shared/Navbar';
-
+import Footer from '../components/shared/Footer';
 export default function Home() {
 	return (
 		<div className='bg-[#0F0F0F]'>
@@ -16,6 +16,7 @@ export default function Home() {
 			<main>
 				<Navbar />
 				<Hero />
+				<Footer/>
 			</main>
 		</div>
 	);

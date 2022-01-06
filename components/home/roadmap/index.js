@@ -34,7 +34,7 @@ const roadmapData = [
 
 function RoadmapHero() {
 	return (
-		<div className='px-72 py-48 h-screen relative'>
+		<div className='px-72 py-48 relative'>
 			<img
 				src='/images/venus-2.png'
 				className='absolute left-0 top-0 scale-125 z-10'
@@ -57,7 +57,7 @@ function RoadmapList() {
 	console.log(refresh.current);
 	useEffect(() => {});
 	return (
-		<div className='px-72 py-48 flex relative w-full justify-end'>
+		<div className='px-72 py-48 mt-40 flex relative w-full justify-end'>
 			<p className='rotate-90 -left-80 absolute font-bold text-25xl textStrokeShadowBlack text-[#0f0f0f]'>
 				2022
 			</p>

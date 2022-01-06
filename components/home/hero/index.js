@@ -1,6 +1,6 @@
 export default function Hero() {
 	return (
-		<div className='px-72 py-48 bg-[#0F0F0F] flex items-center relative overflow-hidden'>
+		<div className='px-72 py-[10%] bg-[#0F0F0F] flex items-center relative overflow-hidden'>
 			<div className='w-1/2'>
 				<p className='text-6xl font-bold text-white'>
 					Blockchain

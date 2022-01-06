@@ -11,26 +11,6 @@ body {
 	margin: 0;
 }
 
-.rounded-none {
-	border-radius: 0;
-}
-
-.rounded-sm {
-	border-radius: 0.125rem;
-}
-
-.rounded {
-	border-radius: 0.25rem;
-}
-
-.rounded-lg {
-	border-radius: 0.5rem;
-}
-
-.rounded-full {
-	border-radius: 9999px;
-}
-
 .btn-primary {
 	padding: 0.25em 3em;
 	color: #fff;
@@ -39,6 +19,26 @@ body {
 	font-family: 'Montserrat';
 	border-radius: 999px;
 	border: 1px solid #fff;
+}
+
+.textStrokeShadowBlack {
+	text-transform: capitalize;
+	background: linear-gradient(
+		rgb(255, 255, 255),
+		rgb(0, 0, 0),
+		rgba(0, 0, 0, 0.308)
+	);
+	background-size: 200% 200%;
+	-webkit-background-clip: text;
+	-webkit-text-stroke: 8px transparent;
+}
+
+.textStrokeShadowColor {
+	text-transform: capitalize;
+	background: linear-gradient(#8befc8, #9945ff, #05f899);
+	background-size: 200% 200%;
+	-webkit-background-clip: text;
+	-webkit-text-stroke: 5px transparent;
 }
 
 @tailwind base;

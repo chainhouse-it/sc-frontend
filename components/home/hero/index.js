@@ -3,15 +3,16 @@ export default function Hero() {
 		<div className='px-72 py-48 bg-[#0F0F0F] flex items-center relative overflow-hidden'>
 			<div className='w-1/2'>
 				<p className='text-6xl font-bold text-white'>
-					Blockchain Software
+					Blockchain
+					<p>Software</p>
 					<p>Development House</p>
 				</p>
-				<p className='font-thin text-[#DCDCDC] text-justify py-5 text-lg w-10/12'>
+				<h5 className='font-thin text-white text-justify py-5 text-lg w-10/12'>
 					Learn about our competences in designing blockchain
 					solutions for your needs - both commonly available
 					ecosystems like Ethereum or Cardano and specific custom
 					solutions like Hyperledger Fabric or R3 Corda.
-				</p>
+				</h5>
 				<button className='btn-primary'>let's start</button>
 			</div>
 			{/* rightSide */}

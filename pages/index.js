@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Hero from '../components/home/hero';
+import Roadmap from '../components/home/roadmap';
 import Navbar from '../components/shared/Navbar';
 import Footer from '../components/shared/Footer';
 export default function Home() {
@@ -16,7 +17,8 @@ export default function Home() {
 			<main>
 				<Navbar />
 				<Hero />
-				<Footer/>
+				<Roadmap />
+				<Footer />
 			</main>
 		</div>
 	);

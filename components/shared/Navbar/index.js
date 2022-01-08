@@ -6,7 +6,7 @@ export default function Navbar() {
 	const [isOpen, setOpen] = useState(false);
 
 	return (
-		<nav className='flex flex-row justify-between items-center px-48 pt-12 text-[#C1C1C1] font-[Montserrat] xl:px-24 sm:px-10'>
+		<nav className='flex flex-row justify-between items-center px-48 pt-12 text-[#C1C1C1] font-[Montserrat] xl:px-24 sm:px-8'>
 			<p className='text-3xl font-light'>BSH</p>
 			{useWindowWidth() < 1280 ? (
 				<div className={`transition-opacity z-50`}>

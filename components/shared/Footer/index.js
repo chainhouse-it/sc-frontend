@@ -8,9 +8,11 @@ import {
 
 export default function Footer() {
 	return (
-		<div className='h-[350px] lg:h-[32rem] px-48 mt-72 py-12 text-white flex flex-col justify-between relative xl:px-24 sm:px-12'>
+		<footer className='h-[350px] lg:h-[32rem] px-48 mt-32 py-12 text-white flex flex-col justify-between relative xl:px-24 sm:px-8 xl:mt-0 sm:mt-0'>
 			<hr className='w-full' />
-			<p className='text-4xl mb-auto py-10 font-bold'>chainhouse.io</p>
+			<p className='text-4xl mb-auto py-10 font-bold sm:text-2xl'>
+				chainhouse.io
+			</p>
 			<div className='flex justify-between w-full items-center lg:flex-col lg:gap-10 lg:items-start'>
 				<div className='flex gap-6 flex-row items-center text-md font-light lg:flex-col lg:items-start'>
 					<p className='cursor-pointer'>About</p>
@@ -36,6 +38,6 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</footer>
 	);
 }

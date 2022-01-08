@@ -12,13 +12,19 @@ body {
 }
 
 .btn-primary {
-	padding: 0.25em 3em;
+	padding: 0.25em 4em;
 	color: #fff;
-	font-weight: 300;
+	font-weight: 500;
 	font-size: 14px;
 	font-family: 'Montserrat';
 	border-radius: 999px;
 	border: 1px solid #fff;
+	transition: all 0.3s;
+}
+
+.btn-primary:hover {
+	background: #fff;
+	color: #0f0f0f;
 }
 
 @media (max-width: 639px) {

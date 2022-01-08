@@ -31,7 +31,7 @@ export default function Navbar() {
 			<div
 				className={`${
 					isOpen ? 'translate-y-1/2' : '-translate-y-full'
-				} absolute w-full left-0 h-1/2 p-10 z-40 transition-transform duration-500`}
+				} absolute w-full left-0 h-4/5 p-10 z-40 transition-transform duration-500 sm:p-8`}
 			>
 				<div className='w-full h-full bg-gradient-to-t from-[#00FE9B] bg-[#7A41F6] rounded-2xl flex items-center px-40 xl:px-16'></div>
 			</div>

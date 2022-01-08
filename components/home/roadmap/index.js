@@ -1,6 +1,3 @@
-import gsap from 'gsap';
-import { useEffect, useRef } from 'react';
-
 const roadmapData = [
 	{
 		text: 'Setting up legal entity',
@@ -40,8 +37,6 @@ function RoadmapHero() {
 				className='absolute left-0 top-0 scale-125 z-10'
 			/>
 			<div className='py-40 relative flex justify-center'>
-				{/* change to font 20xl  */}
-				{/* <p className='text-white text-9xl font-bold '>Roadmap</p> */}
 				<img
 					src='/images/Roadmap-2.svg'
 					className='absolute top-10 z-20'
@@ -53,18 +48,18 @@ function RoadmapHero() {
 }
 
 function RoadmapList() {
-	const refresh = useRef(null);
-	console.log(refresh.current);
-	useEffect(() => {});
+	const iconsArr = useRef([]); //arr of refs
 	return (
 		<div className='px-72 py-48 mt-40 flex relative w-full justify-end'>
-			<p className='rotate-90 -left-80 absolute font-bold text-25xl textStrokeShadowBlack text-[#0f0f0f]'>
+			<p className='rotate-90 -left-80 absolute font-bold text-25xl textStrokeShadowBlack text-[#0f0f0f] select-none'>
 				2022
 			</p>
-			<div className='border-t-2 w-400 flex justify-center relative w-750px'>
-				<p className='textStrokeShadowColor font-black text-15xl text-[#0f0f0f] absolute -top-64 -left-28'>
-					Q1
-				</p>
+			<div className='border-t-2 w-400 flex justify-center relative w-500px'>
+				<div>
+					<p className='textStrokeShadowColor font-black text-15xl text-[#0f0f0f] absolute -top-64 -left-28 select-none'>
+						Q1
+					</p>
+				</div>
 				<ul className='pt-16'>
 					{roadmapData.map(({ text, isDone }) => {
 						return (
@@ -73,7 +68,9 @@ function RoadmapList() {
 									<img
 										src='/images/refresh.png'
 										className='w-6 h-6'
-										id='refreshIcon'
+										ref={(icon) =>
+											iconsArr.current.push(icon)
+										}
 									/>
 								) : (
 									<img

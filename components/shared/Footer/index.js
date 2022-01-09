@@ -9,7 +9,7 @@ import {
 export default function Footer() {
 	return (
 		<footer className='h-[350px] lg:h-[32rem] px-48 mt-32 py-12 text-white flex flex-col justify-between relative xl:px-24 sm:px-8 xl:mt-0 sm:mt-0'>
-			<hr className='w-full' />
+			<hr className='w-full ' />
 			<p className='text-4xl mb-auto py-10 font-bold sm:text-2xl'>
 				chainhouse.io
 			</p>

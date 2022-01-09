@@ -22,9 +22,9 @@ export default function Hero() {
 					both commonly available ecosystems like
 				</h5>
 				<div className='flex gap-5 xs:flex-col'>
-					<button className='btn-primary'>let's start</button>
+					<button className='btn-primary'>Get started</button>
 					<button className='btn-primary bg-[#05F899] border-[#05f899] text-[#0f0f0f] hover:bg-[#0f0f0f] hover:text-[#05f899]  hover:border hover:border-[#05f899]'>
-						get started
+					Let's start
 					</button>
 				</div>
 			</div>

@@ -18,8 +18,8 @@ export default function Home() {
 			<main>
 				<Navbar />
 				<Hero />
-				<About/>
 				<Roadmap />
+				<About/>
 				<Footer />
 			</main>
 		</div>

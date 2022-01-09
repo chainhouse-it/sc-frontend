@@ -92,9 +92,9 @@ export default function Roadmap() {
 		<div>
 			<RoadmapHero />
 			<RoadmapList />
-			<div className='w-full py-48 grid place-items-center px-48 md:px-12 md:py-24'>
+			{/* <div className='w-full py-48 grid place-items-center px-48 md:px-12 md:py-24'>
 				<img src='/images/stay-tuned.svg' className='' />
-			</div>
+			</div> */}
 		</div>
 	);
 }

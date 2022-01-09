@@ -1,7 +1,7 @@
 const roadmapData = [
 	{
 		text: 'Setting up legal entity',
-		isDone: true,
+		isDone: false,
 	},
 	{
 		text: 'Market research',

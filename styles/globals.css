@@ -48,10 +48,10 @@ body {
 
 .textStrokeShadowColor {
 	text-transform: capitalize;
-	background: linear-gradient(#8befc8, #9945ff, #4ea0cb, #05f899, #05f899);
+	background: #00fe9b;
 	background-size: 200% 200%;
 	-webkit-background-clip: text;
-	-webkit-text-stroke: 10px transparent;
+	-webkit-text-stroke: 5px transparent;
 }
 
 .test-class {

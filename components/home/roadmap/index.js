@@ -39,7 +39,7 @@ function RoadmapHero() {
 			<div className='py-40 relative flex justify-center'>
 				<img
 					src='/images/Roadmap-2.svg'
-					className='absolute bottom-40 z-10 2xl:scale-75 xl:top-1/2 xl:bottom-0 md:hidden'
+					className='absolute bottom-40 z-10 2xl:scale-75 xl:top-1/2 xl:bottom-0 lg:hidden md:hidden'
 				/>
 				<div className='h-10 border bg-[#0F0F0F] z-0 w-full xl:hidden'></div>
 			</div>

@@ -7,9 +7,9 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`${
-				isOpen ? 'fixed' : ''
-			} bg-[#0F0F0F] w-full top-0 flex flex-row justify-between items-center px-48 pt-12 text-[#C1C1C1] z-50 font-[Montserrat] xl:px-24 sm:px-8`}
+			className={`bg-[#0F0F0F] w-full top-0 flex flex-row justify-between items-center px-48 pt-12 text-[#C1C1C1] z-50 font-[Montserrat] ${
+				isOpen ? 'fixed' : 'absolute'
+			} xl:px-24 sm:px-8`}
 		>
 			<p className='text-3xl font-light z-20 '>BSH</p>
 			{useWindowWidth() < 1280 ? (

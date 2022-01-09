@@ -53,6 +53,10 @@ body {
 	-webkit-text-stroke: 10px transparent;
 }
 
+.test-class {
+	z-index: 100;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

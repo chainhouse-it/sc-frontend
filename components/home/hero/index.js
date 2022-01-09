@@ -2,7 +2,7 @@ import useWindowWidth from '../../../hooks/useWindowWidth';
 
 export default function Hero() {
 	return (
-		<div className='px-72 py-[10%] bg-[#0F0F0F] flex items-center relative overflow-hidden xl:px-24 xl:py-[20%] sm:px-8'>
+		<div className='px-72 py-[10%] mt-10 bg-[#0F0F0F] flex items-center relative overflow-hidden xl:px-24 xl:py-[20%] sm:px-8'>
 			<div className='w-1/2 xl:w-full xl:flex flex-col xl:justify-center'>
 				<p className='text-6xl font-bold text-white sm:text-3xl'>
 					{useWindowWidth() > 639 ? (

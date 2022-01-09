@@ -2,12 +2,12 @@ import useWindowWidth from '../../../hooks/useWindowWidth';
 
 export default function Hero() {
 	return (
-		<div className='px-72 py-[10%] mt-10 bg-[#0F0F0F] flex items-center relative overflow-hidden xl:px-24 xl:py-[20%] sm:px-8'>
+		<div className='px-72 py-[10%] mt-24 bg-[#0F0F0F] flex items-center relative overflow-hidden xl:px-24 xl:py-[20%] sm:px-8 xs:mt-32'>
 			<div className='w-1/2 xl:w-full xl:flex flex-col xl:justify-center'>
 				<p className='text-6xl font-bold text-white sm:text-3xl'>
 					{useWindowWidth() > 639 ? (
 						<>
-							Blockchain
+							<span className='text-[#05f899]'>Blockchain</span>
 							<p>Software</p>
 							<p>Development House</p>
 						</>
@@ -15,17 +15,17 @@ export default function Hero() {
 						<p>Blockchain Software Development House</p>
 					)}
 				</p>
-				<h5 className='font-light text-white text-justify py-5 text-lg sm:text-sm'>
+				<h5 className='font-normal text-[#dcdcdc] text-justify py-5 text-lg sm:text-sm'>
 					Learn about our competences in designing blockchain
 					solutions for your needs - both commonly available
-					ecosystems like{' '}
-					<span className='text-[#8befc8]'>Ethereum </span>or
-					<span className='text-[#8befc8]'> Cardano </span>
-					and specific custom solutions like Hyperledger Fabric or R3
-					Corda.
+					ecosystems like or both commonly available ecosystems like -
+					both commonly available ecosystems like
 				</h5>
-				<div>
+				<div className='flex gap-5 xs:flex-col'>
 					<button className='btn-primary'>let's start</button>
+					<button className='btn-primary bg-[#05F899] border-[#05f899] text-[#0f0f0f] hover:bg-[#0f0f0f] hover:text-[#05f899]  hover:border hover:border-[#05f899]'>
+						get started
+					</button>
 				</div>
 			</div>
 			{/* rightSide */}

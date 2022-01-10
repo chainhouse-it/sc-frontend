@@ -12,7 +12,7 @@ export default function Contact() {
 				/>
 				<img
 					src='/images/in touch.svg'
-					className='xl:h-[100px] xl:w-[275px]'
+					className='xl:h-[100px] xl:w-[275px] py-2'
 				/>
 				<img
 					src='/images/with us.svg'
@@ -20,10 +20,10 @@ export default function Contact() {
 				/>
 			</div>
 			<div className='w-1/3 self-end relative xl:w-2/3 sm:w-full sm:self-start'>
-				<p className='relative text-[#fff] font-semibold text-3xl sm:text-lg'>
+				<div className='relative text-[#fff] font-semibold text-3xl sm:text-lg'>
 					<div className='w-[120px] absolute h-[2px] -top-1 left-0 bg-[#14f195]'></div>
-					Message
-				</p>
+					<p>Message</p>
+				</div>
 				<p className='text-[#fff] text-xl font-light py-6 sm:text-sm'>
 					Let us know if u have any ideas, questions, or troubles with
 					chain<span className='text-[#14F195]'>house.</span> Ask
@@ -43,10 +43,10 @@ export default function Contact() {
 				</div>
 			</div>
 			<div className='w-1/3 xl:mt-24 xl:w-2/3 sm:w-full sm:self-start'>
-				<p className='relative text-[#fff] text-3xl font-semibold sm:text-lg'>
+				<div className='relative text-[#fff] text-3xl font-semibold sm:text-lg'>
 					<div className='w-[180px] absolute h-[2px] -top-1 left-0 bg-[#9945ff]'></div>
-					Work with us
-				</p>
+					<p>Work with us</p>
+				</div>
 				<p className='text-[#fff] text-xl font-light py-6 sm:text-sm'>
 					If you’re interested in crypto, blockchain and you love to
 					learn, get in touch with us. We’re looking for you. Lorem

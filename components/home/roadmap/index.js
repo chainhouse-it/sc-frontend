@@ -31,11 +31,11 @@ const roadmapData = [
 
 function RoadmapHero() {
 	return (
-		<div className='px-72 py-48 relative md:py-24 md:px-0'>
-			<div className='py-40 relative flex justify-center'>
+		<div className='px-72 py-48 relative lg:py-12 lg:px-0'>
+			<div className='py-40 relative flex justify-center lg:py-12'>
 				<img
 					src='/images/Roadmap-2.svg'
-					className='absolute bottom-40 z-10 2xl:scale-75 xl:top-1/2 xl:bottom-0 lg:hidden md:hidden'
+					className='absolute bottom-40 z-10 2xl:scale-75 xl:top-1/2 xl:bottom-0'
 				/>
 				<div className='h-8 border bg-[#0F0F0F] z-0 w-full xl:hidden'></div>
 			</div>
@@ -46,7 +46,7 @@ function RoadmapHero() {
 function RoadmapList() {
 	// const iconsArr = useRef([]); //arr of refs
 	return (
-		<div className='px-72 py-48 mt-40 flex relative w-full justify-end xl:justify-center xl:px-24 md:px-12 sm:px-8 md:mt-0'>
+		<div className='px-72 py-48 mt-40 flex relative w-full justify-end xl:justify-center xl:px-24 md:px-12 sm:px-8 md:mt-24'>
 			<p className='rotate-90 -left-80 absolute font-bold text-25xl textStrokeShadowBlack text-[#0f0f0f] select-none xl:hidden'>
 				2022
 			</p>

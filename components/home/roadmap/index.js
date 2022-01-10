@@ -52,11 +52,11 @@ function RoadmapList() {
 			</p>
 			<div className='border-t-2 w-[450px] flex justify-center relative md:w-full'>
 				<div>
-					<p className='textStrokeShadowColor font-black text-15xl text-[#0f0f0f] absolute -top-64 -left-28 select-none md:text-10xl md:-left-2'>
+					<p className='textStrokeShadowColor font-black text-15xl text-[#0f0f0f] absolute -top-64 -left-28 select-none md:text-10xl md:-left-2 sm:-top-40'>
 						Q1
 					</p>
 				</div>
-				<ul className='pt-16 md:pt-0'>
+				<ul className='pt-16 md:pt-0 sm:pt-12'>
 					{roadmapData.map(({ text, isDone }) => {
 						return (
 							<div className='flex py-6 items-center gap-8'>

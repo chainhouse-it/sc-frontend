@@ -1,3 +1,6 @@
+import gsap from 'gsap';
+import { useEffect, useRef } from 'react';
+
 const roadmapData = [
 	{
 		text: 'Setting up legal entity',
@@ -30,12 +33,22 @@ const roadmapData = [
 ];
 
 function RoadmapHero() {
+	const headerImg = useRef();
+	const tl = gsap.timeline();
+	useEffect(() => {
+		tl.fromTo(
+			headerImg.current,
+			{ opacity: '0' },
+			{ opacity: '1', duration: 2, scrollTrigger: true }
+		);
+	});
 	return (
 		<div className='px-72 py-48 relative lg:py-12 lg:px-0'>
 			<div className='py-40 relative flex justify-center lg:py-12'>
 				<img
 					src='/images/Roadmap-2.svg'
 					className='absolute bottom-40 z-10 2xl:scale-75 xl:top-1/2 xl:bottom-0'
+					ref={headerImg}
 				/>
 				<div className='h-8 border bg-[#0F0F0F] z-0 w-full xl:hidden'></div>
 			</div>

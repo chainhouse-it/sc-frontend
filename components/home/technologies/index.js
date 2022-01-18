@@ -3,7 +3,7 @@ import SmallHeader from '../../shared/SmallHeader';
 
 function Technologies() {
 	return (
-		<div className='h-screen relative grid place-items-center px-32 xl:px-12 sm:px-4'>
+		<div className='h-screen relative grid place-items-center px-32 mt-12 xl:px-12 sm:px-4'>
 			<img
 				src='/images/background.png'
 				alt=''

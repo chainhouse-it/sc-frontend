@@ -3,11 +3,11 @@ import Title from '../../shared/Title';
 import PrimaryButton from '../../shared/PrimaryButton';
 export default function Hero() {
 	return (
-		<div className='w-full h-max text-white flex justify-around items-center pb-48'>
-			<div className='py-44 flex justify-around items-center flex-col sm:items-start sm:py-20 sm:px-4'>
+		<div className='w-full h-screen text-white flex justify-around items-start relative'>
+			<div className='py-44 flex justify-around items-center flex-col sm:items-start sm:py-48 sm:px-4'>
 				<Title text='DESIGN SMARTER, NOT HARDER' />
 
-				<div className='w-1/2 py-4 text-center sm:text-left'>
+				<div className='w-1/2 py-4 text-center sm:text-left sm:w-full'>
 					<LargeHeader text='Blockchain Software Development House' />
 				</div>
 
@@ -22,6 +22,14 @@ export default function Hero() {
 
 					<PrimaryButton text='Roadmap' link='#' isReversed />
 				</div>
+
+                <div className = "flex justify-around flex-col items-center pt-52 gap-3 absolute bottom-12 self-center z-50 sm:bottom-4">
+
+                    <img src="/images/scroll-icon.svg" className = "w-5"/>
+                    <p className = "font-[poppins] font-medium text-xs">Scroll down</p>
+                    <img src="/images/arrow-icon.svg" className = "h-5"/>
+
+                </div>
 			</div>
 		</div>
 	);

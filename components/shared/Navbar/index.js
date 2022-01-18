@@ -7,7 +7,7 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`w-full flex flex-row justify-between items-center px-36 py-6 text-[#FFF] font-[poppins] sm:p-4`}
+			className={`absolute left-0 top-0 z-50 w-full flex flex-row justify-between items-center px-36 py-6 text-[#FFF] font-[poppins] sm:p-4`}
 		>
 			<p className='text-3xl font-light z-20 '>
 				<span className='font-bold'>chain</span>

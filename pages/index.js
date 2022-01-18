@@ -1,4 +1,7 @@
 import Head from 'next/head';
+import Title from '../components/shared/Title';
+import BigHeader from '../components/shared/BigHeader';
+import SmallHeader from '../components/shared/SmallHeader';
 
 export default function Home() {
 	return (
@@ -11,7 +14,11 @@ export default function Home() {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<main></main>
+			<main>
+				<Title text='Design smarter not harder' />
+				<BigHeader text='Blockchain development house' />
+				<SmallHeader text='Our projects' />
+			</main>
 		</div>
 	);
 }

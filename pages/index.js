@@ -1,9 +1,5 @@
 import Head from 'next/head';
-import Hero from '../components/home/hero';
-import Roadmap from '../components/home/roadmap';
-import Navbar from '../components/shared/Navbar';
-import Footer from '../components/shared/Footer';
-import About from '../components/home/about';
+
 export default function Home() {
 	return (
 		<div className='bg-[#0F0F0F]'>
@@ -15,13 +11,7 @@ export default function Home() {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<main>
-				<Navbar />
-				<Hero />
-				<Roadmap />
-				<About />
-				<Footer />
-			</main>
+			<main></main>
 		</div>
 	);
 }

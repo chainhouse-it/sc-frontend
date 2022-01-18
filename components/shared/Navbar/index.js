@@ -36,7 +36,7 @@ export default function Navbar() {
 			<div
 				className={`${
 					isOpen ? 'translate-y-1/2' : '-translate-y-full'
-				} fixed w-full left-0 h-4/5 transition-transform duration-500 sm:py-6 xl:py-6 z-50`}
+				} fixed w-full left-0 h-full transition-transform duration-500 sm:py-6 xl:py-6 z-50`}
 			>
 				<div className='w-full h-full bg-[#000] flex items-center justify-around px-40 xl:px-16'>
 					<div className='flex  items-center flex-col font-normal text-xl cursor-pointer sm:text-sm'>

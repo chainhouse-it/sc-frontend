@@ -12,10 +12,7 @@ export default function Home() {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<main>
-				<PrimaryButton text='Roadmap' link='#' isReversed />
-				<PrimaryButton text='Get in touch' link='#' />
-			</main>
+			<main></main>
 		</div>
 	);
 }

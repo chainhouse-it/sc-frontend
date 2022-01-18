@@ -8,7 +8,7 @@ function PrimaryButton({ text, link, isReversed }) {
 					isReversed ? 'text-white bg-black' : 'text-black bg-white'
 				}
                 border-white border-2 font-bold font-base px-5 py-2 rounded-full cursor-pointer
-                `}
+                sm:text-sm`}
 			>
 				{text}
 			</button>

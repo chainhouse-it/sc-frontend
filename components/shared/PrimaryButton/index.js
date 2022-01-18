@@ -3,15 +3,15 @@ import Link from 'next/link';
 function PrimaryButton({ text, link, isReversed }) {
 	return (
 		<Link href={link}>
-			<button
+			<p
 				className={`${
 					isReversed ? 'text-white bg-black' : 'text-black bg-white'
 				}
-                border-white border-2 font-bold font-base px-5 py-2 rounded-full cursor-pointer
-                sm:text-sm`}
+                border-white border-2 font-bold font-base text-xs px-5 py-2 rounded-full cursor-pointer font-[Poppins]
+                `}
 			>
 				{text}
-			</button>
+			</p>
 		</Link>
 	);
 }

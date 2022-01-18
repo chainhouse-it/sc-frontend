@@ -5,7 +5,7 @@ module.exports = {
 	],
 	theme: {
 		fontFamily: {
-			montserrat: ['Poppins', 'Arial'],
+			poppins: ['Poppins', 'Arial'],
 			roboto: ['Roboto', 'Arial'],
 		},
 		screens: {

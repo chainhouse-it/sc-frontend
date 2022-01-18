@@ -7,29 +7,27 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`bg-[#0F0F0F] w-full top-0 flex flex-row justify-between items-center px-48 pt-12 text-[#C1C1C1] z-50 font-[Montserrat] ${
-				isOpen ? 'fixed' : 'absolute'
-			} xl:px-24 sm:px-8`}
+			className={`w-full flex flex-row justify-between items-center px-36 py-6 text-[#FFF] font-[poppins] sm:p-4`}
 		>
-			<p className='text-3xl font-light z-20 '>BSH</p>
+			<p className='text-3xl font-light z-20 '><span className="font-bold">chain</span><span className="font-light">house.io</span></p>
 			{useWindowWidth() < 1280 ? (
-				<div className={`transition-opacity z-50`}>
+				<div className={`transition-opacity`}>
 					<Hamburger toggled={isOpen} toggle={setOpen} />
 				</div>
 			) : (
-				<div className='flex flex-row items-center font-normal text-md cursor-pointer'>
+				<div className='flex flex-row items-center font-semibold text-sm cursor-pointer'>
+					<p className='px-6'>Overview</p>
+					<p className='px-6'>Features</p>
+					<p className='px-6'>Pricing</p>
 					<p className='px-6'>About</p>
-					<p className='px-6'>Contact</p>
-					<p className='px-6'>Community</p>
-					<p className='px-6'>Work</p>
-					<p className='pl-20 flex flex-row items-center gap-2'>
+					{/* <p className='pl-20 flex flex-row items-center gap-2'>
 						ENG
 						<img
 							src='/images/arrow.png'
 							alt=''
 							className='w-7 h-3'
 						/>
-					</p>
+					</p> */}
 				</div>
 			)}
 			<div
@@ -39,18 +37,10 @@ export default function Navbar() {
 			>
 				<div className='w-full h-full bg-[#0F0F0F] flex items-center justify-around px-40 xl:px-16'>
 					<div className='flex  items-center flex-col font-normal text-xl cursor-pointer sm:text-sm'>
-						<p className='p-6'>About</p>
-						<p className='p-6'>Contact</p>
-						<p className='p-6'>Community</p>
-						<p className='p-6'>Work</p>
-						<p className='p-6 flex flex-row items-center gap-2'>
-							ENG
-							<img
-								src='/images/arrow.png'
-								alt=''
-								className='w-7 h-3'
-							/>
-						</p>
+					<p className='p-6'>Overview</p>
+					<p className='p-6'>Features</p>
+					<p className='p-6'>Pricing</p>
+					<p className='p-6'>About</p>
 					</div>
 				</div>
 			</div>

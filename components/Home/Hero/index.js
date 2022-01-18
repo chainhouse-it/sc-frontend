@@ -16,7 +16,7 @@ export default function Hero() {
                     Learn about our competences in designing blockchain solutions for your needs - both commonly available ecosystems like Ethereum.
                 </span>
 
-                <div className="w-1/3 pt-10 flex justify-start items-center flex-row sm:w-full sm:gap-4">
+                <div className="w-1/3 pt-10 flex justify-evenly items-center flex-row sm:w-full sm:gap-4 sm:justify-start">
                     <PrimaryButton
                         text="Get In Touch"
                         link="#"

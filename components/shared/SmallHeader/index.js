@@ -1,8 +1,6 @@
 function SmallHeader({ text }) {
 	return (
-		<p className='text text-4xl text-white font-bold xl xl:text-2xl'>
-			{text}
-		</p>
+		<p className='text text-5xl text-white font-bold sm:text-2xl'>{text}</p>
 	);
 }
 

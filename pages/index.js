@@ -1,10 +1,13 @@
 import Head from 'next/head';
 import Navbar from '../components/shared/Navbar';
 import Hero from '../components/Home/Hero';
+import About from '../components/home/about';
+import Technologies from '../components/home/technologies';
+import PrimaryButton from '../components/shared/PrimaryButton';
 
 export default function Home() {
 	return (
-		<div>
+		<div className='overflow-x-hidden'>
 			<Head>
 				<title>chainhouse.io</title>
 				<meta
@@ -14,8 +17,10 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
-				<Navbar/>
-				<Hero/>
+				<Navbar />
+				<Hero />
+				<Technologies />
+				<About />
 			</main>
 		</div>
 	);

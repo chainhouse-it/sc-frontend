@@ -17,13 +17,13 @@ export default function Hero() {
 					ecosystems like Ethereum.
 				</p>
 
-				<div className='w-1/3 pt-10 flex justify-evenly items-center flex-row sm:w-full sm:gap-4 sm:justify-start'>
+				<div className='w-1/3 pt-10 flex justify-evenly items-center flex-row sm:w-full sm:gap-4 sm:justify-start md:gap-8 md:w-1/2'>
 					<PrimaryButton text='Get In Touch' link='#' />
 
 					<PrimaryButton text='Roadmap' link='#' isReversed />
 				</div>
 
-                <div className = "flex justify-around flex-col items-center pt-52 gap-3 absolute bottom-12 self-center z-50 sm:bottom-4">
+                <div className = "flex justify-around flex-col items-center gap-3 absolute bottom-16 self-center z-50 sm:bottom-4">
 
                     <img src="/images/scroll-icon.svg" className = "w-5"/>
                     <p className = "font-[poppins] font-medium text-xs">Scroll down</p>

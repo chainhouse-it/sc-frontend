@@ -15,7 +15,7 @@ function TextBox({ header, description }) {
 
 function About() {
 	return (
-		<div className='px-32 py-72 flex relative overflow-hidden xl:px-12 sm:px-4 sm:py-32'>
+		<div className='px-32 py-72 flex relative overflow-hidden xl:px-12 sm:px-4 sm:py-32 font-[poppins]'>
 			<div className='w-1/2 xl:w-full'>
 				<Title text='Overview' />
 				<SmallHeader text='How we work' />

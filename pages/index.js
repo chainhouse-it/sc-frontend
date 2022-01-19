@@ -4,6 +4,7 @@ import Hero from '../components/Home/Hero';
 import About from '../components/home/about';
 import Technologies from '../components/home/technologies';
 import PrimaryButton from '../components/shared/PrimaryButton';
+import Experience from '../components/Home/experience';
 
 export default function Home() {
 	return (
@@ -21,6 +22,7 @@ export default function Home() {
 				<Hero />
 				<Technologies />
 				<About />
+				<Experience/>
 			</main>
 		</div>
 	);

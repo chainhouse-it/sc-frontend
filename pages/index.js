@@ -3,9 +3,9 @@ import Navbar from '../components/shared/Navbar';
 import Hero from '../components/Home/Hero';
 import About from '../components/home/about';
 import Technologies from '../components/home/technologies';
-import PrimaryButton from '../components/shared/PrimaryButton';
 import Experience from '../components/Home/experience';
 import Footer from '../components/shared/Footer';
+import AboutTech from '../components/Home/aboutTech';
 
 export default function Home() {
 	return (
@@ -23,8 +23,9 @@ export default function Home() {
 				<Hero />
 				<Technologies />
 				<About />
-				<Experience/>
-				<Footer/>
+				<Experience />
+				<AboutTech />
+				<Footer />
 			</main>
 		</div>
 	);

@@ -6,8 +6,17 @@ import Technologies from '../components/home/technologies';
 import Experience from '../components/Home/experience';
 import Footer from '../components/shared/Footer';
 import AboutTech from '../components/Home/aboutTech';
+import Contact from '../components/Home/contact';
+import LoadingScreen from '../components/Home/loadingScreen';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
+	const [isLoading, setIsLoading] = useState(true);
+	useEffect(() => {
+		setTimeout(() => {
+			setIsLoading(false);
+		}, 1500);
+	});
 	return (
 		<div className='overflow-x-hidden'>
 			<Head>
@@ -19,13 +28,20 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
-				<Navbar />
-				<Hero />
-				<Technologies />
-				<About />
-				<Experience />
-				<AboutTech />
-				<Footer />
+				{isLoading ? (
+					<LoadingScreen />
+				) : (
+					<>
+						<Navbar />
+						<Hero />
+						<Technologies />
+						<About />
+						<Experience />
+						<AboutTech />
+						<Contact />
+						<Footer />
+					</>
+				)}
 			</main>
 		</div>
 	);

@@ -65,10 +65,6 @@ function AboutTech() {
 						header='Blockchain'
 						description='High avaliability and trade matching engine to sustain a deep orderbook on all pains. High avaliability and trade matching engine to sustain a deep.'
 					/>
-					{/* <SlideWrapper
-						header='Decentralized'
-						description='High avaliability and trade matching engine to sustain a deep orderbook on all pains. High avaliability and trade matching engine to sustain a deep. '
-					/> */}
 				</div>
 			</div>
 		</div>

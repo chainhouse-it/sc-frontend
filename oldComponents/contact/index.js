@@ -19,7 +19,7 @@ function Contact() {
 									src='/images/email.png'
 									className='w-[20px]'
 								/>
-								<p className='pl-2'>Mail usSD here</p>
+								<p className='pl-2'>Mail us here</p>
 							</p>
 						</a>
 					) : (

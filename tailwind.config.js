@@ -20,6 +20,7 @@ module.exports = {
 		extend: {
 			colors: {
 				primaryGreen: '#02FEAB',
+				desc: '#CFCED8',
 			},
 			gridTemplateColumns: {
 				team: 'repeat(4, minmax(0, 400px))',

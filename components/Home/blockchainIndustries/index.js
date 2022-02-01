@@ -1,4 +1,5 @@
 import { data } from 'autoprefixer';
+import useWindowWidth from '../../../hooks/useWindowWidth';
 import Title from '../../shared/Title';
 
 function Card({ name }) {
@@ -11,24 +12,6 @@ function Card({ name }) {
 }
 
 function BlockchainIndustries() {
-	const dataIndustries = [
-		'Investment',
-		'Real estate',
-		'Decentralise finance',
-		'Automative',
-		'Decentralise Networks',
-		'Energy & Utilities',
-		'Healthcare & Life Sciences',
-		'Insurance',
-		'KYC blockchain solution',
-		'Payment processing',
-		'Quality Assurance',
-		'Transport and logistic',
-		'Telecom',
-		'Oil & Gas',
-		'Goverment',
-		'Aviaton',
-	];
 	return (
 		<div className='px-52 py-24 xl:px-12 sm:px-4 relative overflow-hidden'>
 			<img
@@ -36,10 +19,11 @@ function BlockchainIndustries() {
 				alt=''
 				className='absolute z-10 -left-[25px] top-[200px] blur-md scale-[1.5] opacity-20 xl:hidden'
 			/>
-			<div className='text-center z-20'>
+			<div className='text-center z-20 sm:text-left'>
 				<Title text='development' />
 				<p className='text-7xl text-white font-bold sm:text-4xl'>
-					Industries we serve using <br />
+					Industries we serve using
+					{useWindowWidth() > 639 ? <br /> : <></>}
 					blockchain
 					<span className='bg-clip-text text-transparent bg-gradient-to-br from-primaryGreen to-[#03FFD1]'>
 						{' '}
@@ -63,3 +47,22 @@ function BlockchainIndustries() {
 }
 
 export default BlockchainIndustries;
+
+const dataIndustries = [
+	'Investment',
+	'Real estate',
+	'Decentralise finance',
+	'Automative',
+	'Decentralise Networks',
+	'Energy & Utilities',
+	'Healthcare & Life Sciences',
+	'Insurance',
+	'KYC blockchain solution',
+	'Payment processing',
+	'Quality Assurance',
+	'Transport and logistic',
+	'Telecom',
+	'Oil & Gas',
+	'Goverment',
+	'Aviaton',
+];

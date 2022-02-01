@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import BlockchainIndustries from '../components/Home/blockchainIndustries';
+import ContactSection from '../components/Home/contactSection';
 // import Navbar from '../components/shared/Navbar';
 // import Hero from '../components/Home/Hero';
 // import About from '../components/home/about';
@@ -29,6 +30,7 @@ export default function Home() {
 				<OurTeam />
 				<ServicesSection />
 				<BlockchainIndustries />
+				<ContactSection />
 			</main>
 		</div>
 	);

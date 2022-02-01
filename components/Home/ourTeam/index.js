@@ -61,7 +61,7 @@ const team = [
 			'https://twitter.com',
 			'https://facebook.com',
 		],
-		photo: '/members/mike.jpg',
+		photo: '/images/members/mike.jpg',
 	},
 	{
 		name: 'Konrad Kowalik',
@@ -71,7 +71,7 @@ const team = [
 			'https://twitter.com',
 			'https://facebook.com',
 		],
-		photo: '/members/rob.png',
+		photo: '/images/members/rob.png',
 	},
 	{
 		name: 'Piotr Galka',
@@ -81,7 +81,7 @@ const team = [
 			'https://twitter.com',
 			'https://facebook.com',
 		],
-		photo: '/members/rob.png',
+		photo: '/images/members/rob.png',
 	},
 	{
 		name: 'Babilonczyk69',
@@ -91,6 +91,6 @@ const team = [
 			'https://twitter.com',
 			'https://facebook.com',
 		],
-		photo: '/members/rob.png',
+		photo: '/images/members/rob.png',
 	},
 ];

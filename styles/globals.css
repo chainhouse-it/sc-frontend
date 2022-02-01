@@ -33,6 +33,22 @@ body {
 	border: 1px solid transparent;
 }
 
+.border-gradient-only-green {
+
+	background: linear-gradient(#0c0b15, #0c0b15) padding-box,
+	linear-gradient(
+			135deg,
+			#02fe9e,
+			#161d25,
+			#161d25
+	)
+	border-box;
+	/*backdrop-filter: blur(200px);*/
+	border: 1px solid transparent;
+
+}
+
+
 .borderAnimationOne {
 	animation: driveAnimationOne 0.5s ease-in-out forwards;
 }
@@ -55,10 +71,3 @@ body {
 	}
 }
 
-.btn-gradient-2 {
-	background: 
-	  linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
-	  linear-gradient(to right, darkblue, darkorchid) border-box;
-	border-radius: 50em;
-	border: 4px solid transparent;
-}

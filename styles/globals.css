@@ -13,7 +13,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	background: #000;
+	background: #01000A;
 }
 
 .border-gradient-green {
@@ -53,4 +53,12 @@ body {
 	to {
 		width: 100%;
 	}
+}
+
+.btn-gradient-2 {
+	background: 
+	  linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
+	  linear-gradient(to right, darkblue, darkorchid) border-box;
+	border-radius: 50em;
+	border: 4px solid transparent;
 }

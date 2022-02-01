@@ -3,9 +3,9 @@ import BlockchainIndustries from '../components/Home/blockchainIndustries';
 import ContactSection from '../components/Home/contactSection';
 // import Navbar from '../components/shared/Navbar';
 // import Hero from '../components/Home/Hero';
-// import About from '../components/home/about';
-// import Technologies from '../components/home/technologies';
-// import Experience from '../components/Home/experience';
+import About from '../components/Home/howWeWork';
+import Technologies from '../components/home/technologies';
+import Experience from '../components/Home/experience';
 // import Footer from '../components/shared/Footer';
 // import AboutTech from '../components/Home/aboutTech';
 // import Contact from '../components/Home/contact';
@@ -27,6 +27,9 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
+				<Technologies />
+				<About/>
+				<Experience/>
 				<OurTeam />
 				<ServicesSection />
 				<BlockchainIndustries />

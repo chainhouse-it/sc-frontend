@@ -32,7 +32,7 @@ function ServicesSection() {
 				<LargeHeader text='What we can do' />
 			</div>
 			<div className='flex justify-around xl:flex-wrap xl:gap-y-10 sm:flex-nowrap sm:flex-col sm:items-center'>
-				{data.map(({ category, services }) => (
+				{dataServices.map(({ category, services }) => (
 					<List category={category} services={services} />
 				))}
 			</div>
@@ -42,7 +42,7 @@ function ServicesSection() {
 
 export default ServicesSection;
 
-const data = [
+const dataServices = [
 	{
 		category: 'Smart contracts',
 		services: [

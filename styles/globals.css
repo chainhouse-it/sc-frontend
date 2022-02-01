@@ -13,7 +13,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	background: #01000A;
+	background: #01000a;
 }
 
 .border-gradient-green {
@@ -30,6 +30,23 @@ body {
 			)
 			border-box;
 	border-radius: 25px;
+	border: 1px solid transparent;
+}
+
+.border-gradient-greenSmall {
+	background: linear-gradient(#08081d, black) padding-box,
+		linear-gradient(
+				45deg,
+				#02fe9e,
+				#161d25,
+				#161d25,
+				#161d25,
+				#161d25,
+				#161d25,
+				#02fe9e
+			)
+			border-box;
+	border-radius: 10px;
 	border: 1px solid transparent;
 }
 
@@ -53,12 +70,4 @@ body {
 	to {
 		width: 100%;
 	}
-}
-
-.btn-gradient-2 {
-	background: 
-	  linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
-	  linear-gradient(to right, darkblue, darkorchid) border-box;
-	border-radius: 50em;
-	border: 4px solid transparent;
 }

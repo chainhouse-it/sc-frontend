@@ -30,7 +30,6 @@ function Member({ name, role, links, photo }) {
 }
 
 function OurTeam() {
-	const tab = [1, 2, 3, 4, 5];
 	return (
 		<div className='px-52 py-24 xl:px-12 sm:px-4'>
 			<div className='text-center my-20'>

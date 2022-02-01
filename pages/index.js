@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import BlockchainIndustries from '../components/Home/blockchainIndustries';
 // import Navbar from '../components/shared/Navbar';
 // import Hero from '../components/Home/Hero';
 // import About from '../components/home/about';
@@ -11,6 +12,7 @@ import Head from 'next/head';
 // import { useState, useEffect } from 'react';
 import OurTeam from '../components/Home/ourTeam';
 import ServicesSection from '../components/Home/servicesSection';
+import Technologies from '../components/home/technologies';
 
 export default function Home() {
 	return (
@@ -26,6 +28,7 @@ export default function Home() {
 			<main>
 				<OurTeam />
 				<ServicesSection />
+				<BlockchainIndustries />
 			</main>
 		</div>
 	);

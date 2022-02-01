@@ -16,6 +16,23 @@ body {
 	background: #000;
 }
 
+.border-gradient-green {
+	background: linear-gradient(#08081d, black) padding-box,
+		linear-gradient(
+				45deg,
+				#02fe9e,
+				#161d25,
+				#161d25,
+				#161d25,
+				#161d25,
+				#161d25,
+				#02fe9e
+			)
+			border-box;
+	border-radius: 25px;
+	border: 1px solid transparent;
+}
+
 .borderAnimationOne {
 	animation: driveAnimationOne 0.5s ease-in-out forwards;
 }

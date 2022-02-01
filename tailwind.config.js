@@ -9,7 +9,8 @@ module.exports = {
 			roboto: ['Roboto', 'Arial'],
 		},
 		screens: {
-			'2xl': { max: '1535px' },
+			'3xl': { min: '1980px' },
+			'2xl': { max: '1440px' },
 			xl: { max: '1279px' },
 			lg: { max: '1023px' },
 			md: { max: '767px' },
@@ -17,6 +18,12 @@ module.exports = {
 			xs: { max: '439px' },
 		},
 		extend: {
+			colors: {
+				primaryGreen: '#02FEAB',
+			},
+			gridTemplateColumns: {
+				team: 'repeat(4, minmax(0, 400px))',
+			},
 			fontSize: {
 				'10xl': '10rem',
 				'15xl': '15rem',

@@ -1,22 +1,18 @@
 import Head from 'next/head';
-import Navbar from '../components/shared/Navbar';
-import Hero from '../components/Home/Hero';
-import About from '../components/home/about';
-import Technologies from '../components/home/technologies';
-import Experience from '../components/Home/experience';
-import Footer from '../components/shared/Footer';
-import AboutTech from '../components/Home/aboutTech';
-import Contact from '../components/Home/contact';
-import LoadingScreen from '../components/Home/loadingScreen';
-import { useState, useEffect } from 'react';
+// import Navbar from '../components/shared/Navbar';
+// import Hero from '../components/Home/Hero';
+// import About from '../components/home/about';
+// import Technologies from '../components/home/technologies';
+// import Experience from '../components/Home/experience';
+// import Footer from '../components/shared/Footer';
+// import AboutTech from '../components/Home/aboutTech';
+// import Contact from '../components/Home/contact';
+// import LoadingScreen from '../components/Home/loadingScreen';
+// import { useState, useEffect } from 'react';
+import OurTeam from '../components/Home/ourTeam';
+import ServicesSection from '../components/Home/servicesSection';
 
 export default function Home() {
-	const [isLoading, setIsLoading] = useState(true);
-	useEffect(() => {
-		setTimeout(() => {
-			setIsLoading(false);
-		}, 1500);
-	});
 	return (
 		<div className='overflow-x-hidden'>
 			<Head>
@@ -28,21 +24,28 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
-				{isLoading ? (
-					<LoadingScreen />
-				) : (
-					<>
-						<Navbar />
-						<Hero />
-						<Technologies />
-						<About />
-						<Experience />
-						<AboutTech />
-						<Contact />
-						<Footer />
-					</>
-				)}
+				<OurTeam />
+				<ServicesSection />
 			</main>
 		</div>
 	);
+}
+
+// const [isLoading, setIsLoading] = useState(true);
+// useEffect(() => {
+// 	setTimeout(() => {
+// 		setIsLoading(false);
+// 	}, 1500);
+// });
+{
+	/* {isLoading ? <LoadingScreen /> : <></>} */
+}
+{
+	/* <Navbar />
+<Hero />
+<Technologies />
+<About /> */
+}
+{
+	/* <Footer /> */
 }

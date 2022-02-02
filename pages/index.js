@@ -7,7 +7,7 @@ import OurTeam from '../components/Home/ourTeam';
 import ServicesSection from '../components/Home/servicesSection';
 import Footer from '../components/shared/Footer';
 import Hero from '../oldComponents/Hero';
-import Technologies from '../components/Home/Technologies';
+import Technologies from '../components/Home/technologies';
 import Navbar from '../components/shared/Navbar';
 
 export default function Home() {

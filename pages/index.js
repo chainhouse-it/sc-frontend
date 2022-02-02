@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import BlockchainIndustries from '../components/Home/blockchainIndustries';
 import ContactSection from '../components/Home/contactSection';
+import Experience from '../components/Home/experience';
 import About from '../components/Home/howWeWork';
 import OurTeam from '../components/Home/ourTeam';
 import ServicesSection from '../components/Home/servicesSection';
@@ -19,6 +20,7 @@ export default function Home() {
 			</Head>
 			<main>
 				<About />
+				<Experience />
 				<OurTeam />
 				<ServicesSection />
 				<BlockchainIndustries />

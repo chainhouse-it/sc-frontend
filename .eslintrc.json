@@ -9,6 +9,5 @@
 		"prefer-const": "error",
 		"semi": [2, "always"],
 		"react/jsx-closing-bracket-location": [2, "tag-aligned"]
-	},
-	"eslint.validate": ["typescript", "javascript"]
+	}
 }

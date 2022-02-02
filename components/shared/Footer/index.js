@@ -1,42 +1,54 @@
-import {
-	IoLogoGithub,
-	IoMailSharp,
-	IoLogoFacebook,
-	IoLogoTwitter,
-	IoLogoLinkedin,
-} from 'react-icons/io5';
+import Link from 'next/link';
 
 export default function Footer() {
 	return (
-		<footer className='h-[350px] lg:h-[32rem] px-48 mt-32 py-12 text-white flex flex-col justify-between relative xl:px-24 sm:px-8 xl:mt-0 sm:mt-0'>
-			<hr className='w-full ' />
-			<p className='text-4xl mb-auto py-10 font-bold sm:text-2xl'>
-				chainhouse.io
-			</p>
-			<div className='flex justify-between w-full items-center lg:flex-col lg:gap-10 lg:items-start'>
-				<div className='flex gap-6 flex-row items-center text-md font-light lg:flex-col lg:items-start'>
-					<p className='cursor-pointer'>About</p>
-					<p className='cursor-pointer'>Work&nbsp;with&nbsp;us!</p>
-					<p className='ursor-pointer'>Contact</p>
-					<p className='cursor-pointer'>Privacy&nbsp;policy</p>
+		<footer className='px-52 py-24 flex justify-between text-white relative xl:px-12 xl:py-14 sm:px-4'>
+			<div className='w-1/4 lg:w-full'>
+				<p className='text-4xl font-bold sm:text-2xl'>chainhouse.io</p>
+				<p className='text-desc font-semibold py-4'>
+					Learn about our competences in designing blockchain
+					solutions for your needs - both
+				</p>
+				<div className='flex gap-3'>
+					<a href='https://facebook.com' target='_blank'>
+						<img src='/icons/footer/facebook.png' alt='' />
+					</a>
+					<a href='https://facebook.com' target='_blank'>
+						<img src='/icons/footer/twitter.png' alt='' />
+					</a>
+					<a href='https://facebook.com' target='_blank'>
+						<img src='/icons/footer/instagram.png' alt='' />
+					</a>
+					<a href='https://facebook.com' target='_blank'>
+						<img src='/icons/footer/linkedin.png' alt='' />
+					</a>
+					<a href='https://facebook.com' target='_blank'>
+						<img src='/icons/footer/github.png' alt='' />
+					</a>
 				</div>
-				<div className='flex flex-row items-center gap-6 lg:gap-0 lg:w-full lg:justify-between'>
-					<div className='cursor-pointer'>
-						<IoLogoGithub size='30' />
-					</div>
-					<div className='cursor-pointer'>
-						<IoMailSharp size='30' />
-					</div>
-					<div className='cursor-pointer'>
-						<IoLogoFacebook size='30' />
-					</div>
-					<div className='cursor-pointer'>
-						<IoLogoTwitter size='30' />
-					</div>
-					<div className='cursor-pointer'>
-						<IoLogoLinkedin size='30' />
-					</div>
-				</div>
+			</div>
+			<div className='w-1/4 flex flex-col items-end xl:hidden'>
+				<ul className='flex flex-col gap-4 font-semibold'>
+					<li>Overview</li>
+					<li>Features</li>
+					<li>Pricing</li>
+					<li>About</li>
+				</ul>
+			</div>
+			<div className='w-1/4 flex flex-col items-end xl:hidden'>
+				<ul className='flex flex-col gap-4 font-semibold'>
+					<li>Developer APIs</li>
+					<li>Blockchain</li>
+					<li>dApps</li>
+				</ul>
+			</div>
+			<div className='w-1/4 flex flex-col items-end xl:hidden'>
+				<ul className='flex flex-col gap-4 font-semibold'>
+					<li>Assured Security</li>
+					<li>Transparency</li>
+					<li>Reliability</li>
+					<li>Time Efective</li>
+				</ul>
 			</div>
 		</footer>
 	);

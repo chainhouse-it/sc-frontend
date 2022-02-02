@@ -1,20 +1,12 @@
 import Head from 'next/head';
 import BlockchainIndustries from '../components/Home/blockchainIndustries';
 import ContactSection from '../components/Home/contactSection';
-// import Navbar from '../components/shared/Navbar';
-// import Hero from '../components/Home/Hero';
 import About from '../components/Home/howWeWork';
 import Technologies from '../components/home/technologies';
 import Experience from '../components/Home/experience';
-// import Footer from '../components/shared/Footer';
-// import AboutTech from '../components/Home/aboutTech';
-// import Contact from '../components/Home/contact';
-// import LoadingScreen from '../components/Home/loadingScreen';
-// import { useState, useEffect } from 'react';
 import OurTeam from '../components/Home/ourTeam';
 import ServicesSection from '../components/Home/servicesSection';
-import Technologies from '../components/home/technologies';
-
+import Footer from '../components/shared/Footer';
 export default function Home() {
 	return (
 		<div className='overflow-x-hidden'>
@@ -27,13 +19,14 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
-				<Technologies />
-				<About/>
-				<Experience/>
+				{/* <Technologies /> */}
+				{/* <About /> */}
+				{/* <Experience /> */}
 				<OurTeam />
 				<ServicesSection />
 				<BlockchainIndustries />
 				<ContactSection />
+				<Footer />
 			</main>
 		</div>
 	);

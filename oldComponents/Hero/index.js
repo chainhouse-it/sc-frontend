@@ -1,15 +1,12 @@
-import LargeHeader from '../../components/shared/LargeHeader';
 import PrimaryButton from '../../components/shared/PrimaryButton';
-import Title from '../../components/shared/Title';
-import Box from '../../components/shared/Box';
 import useWindowWidth from '../../hooks/useWindowWidth';
 
 export default function Hero() {
 	return (
-		<Box
+		<div
 			className={`${
 				useWindowWidth() > 639 ? 'flex flex-col' : ''
-			} mt-12 items-center`}
+			} px-52 py-24 xl:px-12 sm:px-4 mt-12 items-center sm:mt-0 sm:py-4`}
 		>
 			<p className='text-7xl font-bold text-white text-center sm:text-4xl sm:text-left'>
 				Blockchain software
@@ -26,6 +23,6 @@ export default function Hero() {
 				<PrimaryButton text='Get in touch' link='#' />
 				<PrimaryButton text='Roadmap' link='#' isReversed />
 			</div>
-		</Box>
+		</div>
 	);
 }

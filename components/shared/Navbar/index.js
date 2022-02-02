@@ -1,6 +1,7 @@
 import useWindowWidth from '../../../hooks/useWindowWidth';
 import { Fade as Hamburger } from 'hamburger-react';
 import { AnimatePresence, motion, useCycle } from 'framer-motion';
+import Link from 'next/link';
 
 export default function Navbar() {
 	const [open, cycleOpen] = useCycle(false, true);
@@ -36,16 +37,42 @@ export default function Navbar() {
 			<AnimatePresence>
 				{open && (
 					<motion.div
-						className={`w-full h-screen bg-red-500 z-50 left-0 top-0 absolute`}
+						className={`w-full h-screen bg-[#000] z-50 left-0 top-0 absolute grid place-items-center`}
 						initial={{ height: 0 }}
 						animate={{
-							height: '100%',
+							height: '80vh',
 						}}
 						exit={{
 							height: 0,
-							transition: { duration: 0.3 },
 						}}
-					></motion.div>
+						transition={{ duration: 0.5, type: 'tween' }}
+					>
+						<motion.div
+							initial={{ opacity: 0 }}
+							animate={{
+								opacity: 1,
+							}}
+							exit={{
+								opacity: 0,
+								transition: 0.1,
+							}}
+							transition={{ duration: 0.2, delay: 0.3 }}
+							className='text-center'
+						>
+							<p className='font-medium py-6 cursor-pointer'>
+								<Link href='#'>Overview</Link>
+							</p>
+							<p className='font-medium py-6 cursor-pointer'>
+								<Link href='#'>Features</Link>
+							</p>
+							<p className='font-medium py-6 cursor-pointer'>
+								<Link href='#'>Pricing</Link>
+							</p>
+							<p className='font-medium py-6 cursor-pointer'>
+								<Link href='#'>About</Link>
+							</p>
+						</motion.div>
+					</motion.div>
 				)}
 			</AnimatePresence>
 		</nav>

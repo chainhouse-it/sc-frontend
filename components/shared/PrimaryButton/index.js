@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 function PrimaryButton({ text, link, isReversed }) {
 	return (
-		<Link href={link}>
+		<Link href={link} passHref>
 			<p
 				className={`${
 					isReversed ? 'text-white bg-black' : 'text-black bg-white'

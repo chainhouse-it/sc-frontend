@@ -1,19 +1,20 @@
 import LargeHeader from '../../shared/LargeHeader';
 import Title from '../../shared/Title';
-
+import Image from 'next/image';
 function List({ category, services }) {
 	return (
 		<div className='ml-10'>
 			<div className='flex items-center gap-4 relative w-[300px]'>
-				<img
+				<Image
 					src='/icons/servicesIcon.png'
 					className='absolute -left-10'
+					alt=''
 				/>
 				<p className='text-2xl font-bold text-white py-4'>{category}</p>
 			</div>
 			<ul className='list-disc pl-5'>
-				{services.map((service) => (
-					<li className='text-primaryGreen py-2'>
+				{services.map((service, key) => (
+					<li className='text-primaryGreen py-2' key={key}>
 						<div className='text-lg font-light text-white'>
 							{service}
 						</div>
@@ -32,8 +33,8 @@ function ServicesSection() {
 				<LargeHeader text='What we can do' />
 			</div>
 			<div className='flex justify-around xl:flex-wrap xl:gap-y-10 sm:flex-nowrap sm:flex-col sm:items-center'>
-				{dataServices.map(({ category, services }) => (
-					<List category={category} services={services} />
+				{dataServices.map(({ category, services }, key) => (
+					<List category={category} services={services} key={key} />
 				))}
 			</div>
 		</div>

@@ -1,7 +1,6 @@
 import useWindowWidth from '../../../hooks/useWindowWidth';
 import { Fade as Hamburger } from 'hamburger-react';
 import { useState } from 'react';
-
 export default function Navbar() {
 	const [isOpen, setOpen] = useState(false);
 
@@ -23,14 +22,6 @@ export default function Navbar() {
 					<p className='px-6'>Features</p>
 					<p className='px-6'>Pricing</p>
 					<p className='px-6'>About</p>
-					{/* <p className='pl-20 flex flex-row items-center gap-2'>
-						ENG
-						<img
-							src='/images/arrow.png'
-							alt=''
-							className='w-7 h-3'
-						/>
-					</p> */}
 				</div>
 			)}
 			<div

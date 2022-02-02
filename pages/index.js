@@ -6,6 +6,9 @@ import About from '../components/Home/howWeWork';
 import OurTeam from '../components/Home/ourTeam';
 import ServicesSection from '../components/Home/servicesSection';
 import Footer from '../components/shared/Footer';
+import Hero from '../oldComponents/Hero';
+import Technologies from '../components/Home/Technologies';
+import Navbar from '../components/shared/Navbar';
 
 export default function Home() {
 	return (
@@ -19,6 +22,9 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
+				<Navbar />
+				<Hero />
+				<Technologies />
 				<About />
 				<Experience />
 				<OurTeam />

@@ -25,13 +25,6 @@ module.exports = {
 			gridTemplateColumns: {
 				team: 'repeat(4, minmax(0, 400px))',
 			},
-			fontSize: {
-				'10xl': '10rem',
-				'15xl': '15rem',
-				'20xl': '20rem',
-				'24xl': '24rem',
-				'25xl': '25rem',
-			},
 			textShadow: {
 				'2xl': '1px 1px 5px red',
 				'3xl': '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',

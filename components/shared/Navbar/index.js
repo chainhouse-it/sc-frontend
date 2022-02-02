@@ -1,43 +1,53 @@
 import useWindowWidth from '../../../hooks/useWindowWidth';
 import { Fade as Hamburger } from 'hamburger-react';
-import { useState } from 'react';
+import { AnimatePresence, motion, useCycle } from 'framer-motion';
+
 export default function Navbar() {
-	const [isOpen, setOpen] = useState(false);
+	const [open, cycleOpen] = useCycle(false, true);
 
 	return (
 		<nav
-			className={`absolute left-0 top-0 z-50 w-full flex flex-row justify-between items-center px-36 py-6 text-[#FFF] font-[poppins] sm:p-4`}
+			className={`flex justify-between px-52 py-10 text-[#FFF] xl:px-12 sm:px-4`}
 		>
-			<p className='text-3xl font-light z-20 '>
+			<p className='text-4xl font-light z-20'>
 				<span className='font-bold'>chain</span>
 				<span className='font-light'>house.io</span>
 			</p>
 			{useWindowWidth() < 1280 ? (
-				<div className={`transition-opacity`}>
-					<Hamburger toggled={isOpen} toggle={setOpen} />
+				<div
+					className={`transition-opacity z-[60]`}
+					onClick={cycleOpen}
+				>
+					<Hamburger />
 				</div>
 			) : (
-				<div className='flex flex-row items-center font-semibold text-sm cursor-pointer'>
-					<p className='px-6'>Overview</p>
-					<p className='px-6'>Features</p>
-					<p className='px-6'>Pricing</p>
-					<p className='px-6'>About</p>
-				</div>
-			)}
-			<div
-				className={`${
-					isOpen ? 'translate-y-1/2' : '-translate-y-full'
-				} fixed w-full left-0 h-full transition-transform duration-500 sm:py-6 xl:py-6 z-50`}
-			>
-				<div className='w-full h-full bg-[#000] flex items-center justify-around px-40 xl:px-16'>
-					<div className='flex  items-center flex-col font-normal text-xl cursor-pointer sm:text-sm'>
-						<p className='p-6'>Overview</p>
-						<p className='p-6'>Features</p>
-						<p className='p-6'>Pricing</p>
-						<p className='p-6'>About</p>
+				<>
+					<div className='flex flex-row items-center justify-self-center font-medium gap-8 text-lg cursor-pointer'>
+						<p>Overview</p>
+						<p>Features</p>
+						<p>Pricing</p>
+						<p>About</p>
 					</div>
-				</div>
-			</div>
+					<button className='rounded-[999px] px-10 py-3 items-end backdrop-blur-[200px] bg-[#0E0D16] border'>
+						Get In Touch
+					</button>
+				</>
+			)}
+			<AnimatePresence>
+				{open && (
+					<motion.div
+						className={`w-full h-screen bg-red-500 z-50 left-0 top-0 absolute`}
+						initial={{ height: 0 }}
+						animate={{
+							height: '100%',
+						}}
+						exit={{
+							height: 0,
+							transition: { duration: 0.3 },
+						}}
+					></motion.div>
+				)}
+			</AnimatePresence>
 		</nav>
 	);
 }

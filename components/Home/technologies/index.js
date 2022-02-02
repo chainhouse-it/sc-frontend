@@ -1,8 +1,9 @@
 import SmallHeader from '../../shared/SmallHeader';
 import Title from '../../shared/Title';
+
 function Technologies() {
 	return (
-		<div className='h-2/3 relative grid place-items-center px-32 mt-12 select-none xl:px-12 sm:px-4'>
+		<div className='py-72 relative grid place-items-center px-32 mt-12 select-none xl:px-12 sm:px-4 sm:py-4'>
 			<img
 				src='/images/background.png'
 				alt=''

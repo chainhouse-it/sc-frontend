@@ -36,22 +36,3 @@ export default function Home() {
 		</div>
 	);
 }
-
-// const [isLoading, setIsLoading] = useState(true);
-// useEffect(() => {
-// 	setTimeout(() => {
-// 		setIsLoading(false);
-// 	}, 1500);
-// });
-{
-	/* {isLoading ? <LoadingScreen /> : <></>} */
-}
-{
-	/* <Navbar />
-<Hero />
-<Technologies />
-<About /> */
-}
-{
-	/* <Footer /> */
-}

@@ -1,4 +1,3 @@
-import Image from 'next/image';
 export default function Footer() {
 	return (
 		<footer className='px-52 py-24 flex justify-between text-white relative xl:px-12 xl:py-14 sm:px-4'>
@@ -14,35 +13,35 @@ export default function Footer() {
 						target='_blank'
 						rel='noreferrer'
 					>
-						<Image src='/icons/footer/facebook.png' alt='' />
+						<img src='/icons/footer/facebook.png' alt='' />
 					</a>
 					<a
 						href='https://facebook.com'
 						target='_blank'
 						rel='noreferrer'
 					>
-						<Image src='/icons/footer/twitter.png' alt='' />
+						<img src='/icons/footer/twitter.png' alt='' />
 					</a>
 					<a
 						href='https://facebook.com'
 						target='_blank'
 						rel='noreferrer'
 					>
-						<Image src='/icons/footer/instagram.png' alt='' />
+						<img src='/icons/footer/instagram.png' alt='' />
 					</a>
 					<a
 						href='https://facebook.com'
 						target='_blank'
 						rel='noreferrer'
 					>
-						<Image src='/icons/footer/linkedin.png' alt='' />
+						<img src='/icons/footer/linkedin.png' alt='' />
 					</a>
 					<a
 						href='https://facebook.com'
 						target='_blank'
 						rel='noreferrer'
 					>
-						<Image src='/icons/footer/github.png' alt='' />
+						<img src='/icons/footer/github.png' alt='' />
 					</a>
 				</div>
 			</div>

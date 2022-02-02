@@ -1,12 +1,11 @@
 import LargeHeader from '../../shared/LargeHeader';
 import Title from '../../shared/Title';
-import Image from 'next/image';
 
 function Member({ name, role, links, photo }) {
 	return (
 		<div className='flex flex-col items-center 3xl:max-w-[400px] border-gradient-green'>
 			<div className='my-10 border-2 border-[#02fe9e] rounded-[9999px] overflow-hidden'>
-				<Image
+				<img
 					src={photo}
 					alt=''
 					className='w-[150px] h-[150px] object-cover'
@@ -16,21 +15,21 @@ function Member({ name, role, links, photo }) {
 			<p className='text-lg pt-4 font-light text-[#CFCED8]'>{role}</p>
 			<div className='flex w-full gap-4 justify-center my-8'>
 				<a target='_blank' href={links[0]} rel='noreferrer'>
-					<Image
+					<img
 						src='/icons/ig.png'
 						className='cursor-pointer'
 						alt=''
 					/>
 				</a>
 				<a target='_blank' href={links[1]} rel='noreferrer'>
-					<Image
+					<img
 						src='/icons/twitter.png'
 						className='cursor-pointer'
 						alt=''
 					/>
 				</a>
 				<a target='_blank' href={links[2]} rel='noreferrer'>
-					<Image
+					<img
 						src='/icons/linkedin.png'
 						className='cursor-pointer'
 						alt=''

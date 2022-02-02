@@ -1,17 +1,16 @@
 import LargeHeader from '../../shared/LargeHeader';
 import Title from '../../shared/Title';
-import Image from 'next/image';
 
 function ContactSection() {
 	return (
 		<div className='relative'>
 			<div className='px-52 py-32 overflow-hidden xl:px-12 xl:py-14 sm:px-4'>
-				<Image
+				<img
 					src='/images/contact/finalBg.png'
 					alt=''
 					className='absolute top-0 -left-2 w-full h-full object-cover z-0 scale-x-[1.2]'
 				/>
-				<Image
+				<img
 					src='/images/contact/maskContact.png'
 					className='absolute right-0 top-0 scale-y-[1.03] xl:hidden'
 					alt=''
@@ -31,7 +30,7 @@ function ContactSection() {
 							className={`text-white backdrop-blur-[200px] border font-semibold text-base px-8 py-3 rounded-full z-40 flex items-center
                         `}
 						>
-							<Image
+							<img
 								src='/icons/mail.png'
 								className='w-[20px]'
 								alt=''

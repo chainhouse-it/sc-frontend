@@ -1,9 +1,11 @@
 import Head from 'next/head';
 import BlockchainIndustries from '../components/Home/blockchainIndustries';
 import ContactSection from '../components/Home/contactSection';
+import About from '../components/Home/howWeWork';
 import OurTeam from '../components/Home/ourTeam';
 import ServicesSection from '../components/Home/servicesSection';
 import Footer from '../components/shared/Footer';
+
 export default function Home() {
 	return (
 		<div className='overflow-x-hidden'>
@@ -16,9 +18,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
-				{/* <Technologies /> */}
-				{/* <About /> */}
-				{/* <Experience /> */}
+				<About />
 				<OurTeam />
 				<ServicesSection />
 				<BlockchainIndustries />

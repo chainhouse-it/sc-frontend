@@ -1,11 +1,10 @@
-import Image from 'next/image';
 import useWindowWidth from '../../../hooks/useWindowWidth';
 import Title from '../../shared/Title';
 
 function Card({ name }) {
 	return (
 		<div className='border-gradient-greenSmall flex gap-8 py-6 pl-8 pr-2 items-center'>
-			<Image src={`/icons/industriesIcon/${name}.png`} alt='' />
+			<img src={`/icons/industriesIcon/${name}.png`} alt='' />
 			<p className='text-white font-bold text-xl'>{name}</p>
 		</div>
 	);
@@ -14,10 +13,11 @@ function Card({ name }) {
 function BlockchainIndustries() {
 	return (
 		<div className='px-52 py-24 xl:px-12 sm:px-4 relative overflow-hidden'>
-			<Image
+			<img
 				src='/images/background.png'
 				alt=''
-				className='absolute z-10 -left-[25px] top-[200px] blur-md scale-[1.5] opacity-20 xl:hidden'
+				className='absolute z-10
+			-left-[25px] top-[200px] blur-md scale-[1.5] opacity-20 xl:hidden'
 			/>
 			<div className='text-center z-20 sm:text-left'>
 				<Title text='development' />
@@ -33,7 +33,7 @@ function BlockchainIndustries() {
 			</div>
 			<div className='py-24 sm:py-12 sm:pt-24'>
 				<div className='flex items-center gap-4'>
-					<Image src='/icons/servicesIcon.png' alt='' />
+					<img src='/icons/servicesIcon.png' alt='' />
 					<p className='text-2xl font-bold text-white'>Industries:</p>
 				</div>
 			</div>

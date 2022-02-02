@@ -1,11 +1,10 @@
 import LargeHeader from '../../shared/LargeHeader';
 import Title from '../../shared/Title';
-import Image from 'next/image';
 function List({ category, services }) {
 	return (
 		<div className='ml-10'>
 			<div className='flex items-center gap-4 relative w-[300px]'>
-				<Image
+				<img
 					src='/icons/servicesIcon.png'
 					className='absolute -left-10'
 					alt=''

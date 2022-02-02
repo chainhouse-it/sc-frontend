@@ -1,7 +1,6 @@
 import LargeHeader from '../../shared/LargeHeader';
 import Title from '../../shared/Title';
 import PrimaryButton from '../../shared/PrimaryButton';
-import Image from 'next/image';
 
 export default function Hero() {
 	return (
@@ -21,19 +20,11 @@ export default function Hero() {
 					<PrimaryButton text='Roadmap' link='#' isReversed />
 				</div>
 				<div className='flex justify-around flex-col items-center gap-3 absolute bottom-16 self-center z-50 sm:bottom-4'>
-					<Image
-						src='/images/scroll-icon.svg'
-						className='w-5'
-						alt=''
-					/>
+					<img src='/images/scroll-icon.svg' className='w-5' alt='' />
 					<p className='font-[poppins] font-medium text-xs'>
 						Scroll down
 					</p>
-					<Image
-						src='/images/arrow-icon.svg'
-						className='h-5'
-						alt=''
-					/>
+					<img src='/images/arrow-icon.svg' className='h-5' alt='' />
 				</div>
 			</div>
 		</div>

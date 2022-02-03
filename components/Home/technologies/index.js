@@ -3,7 +3,7 @@ import Title from '../../shared/Title';
 
 function Technologies() {
 	return (
-		<div className='py-72 relative grid place-items-center px-32 mt-12 select-none xl:px-12 sm:px-4 sm:py-4'>
+		<div className='py-72 relative grid place-items-center px-16 mt-12 select-none xl:px-12 sm:px-4 sm:py-4'>
 			<img
 				src='/images/background.png'
 				alt=''

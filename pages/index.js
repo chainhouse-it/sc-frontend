@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import AboutWeb3 from '../components/Home/AboutWeb3';
 import BlockchainIndustries from '../components/Home/blockchainIndustries';
 import ContactSection from '../components/Home/contactSection';
 import Experience from '../components/Home/experience';
@@ -27,6 +28,7 @@ export default function Home() {
 				<Technologies />
 				<About />
 				<Experience />
+				<AboutWeb3 />
 				<OurTeam />
 				<ServicesSection />
 				<BlockchainIndustries />

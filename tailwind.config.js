@@ -33,6 +33,9 @@ module.exports = {
 				'400px': '400px',
 				'750px': '750px',
 			},
+			gridTemplateRows: {
+				'7': 'repeat(7, minmax(0, 1fr))',
+			}
 		},
 	},
 	plugins: [require('tailwindcss-textshadow')],

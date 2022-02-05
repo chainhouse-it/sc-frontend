@@ -10,6 +10,7 @@ import Footer from '../components/shared/Footer';
 import Hero from '../oldComponents/Hero';
 import Technologies from '../components/Home/technologies';
 import Navbar from '../components/shared/Navbar';
+import Roadmap from '../components/Home/roadmap';
 
 export default function Home() {
 	return (
@@ -30,6 +31,7 @@ export default function Home() {
 				<Experience />
 				<AboutWeb3 />
 				<OurTeam />
+				<Roadmap />
 				<ServicesSection />
 				<BlockchainIndustries />
 				<ContactSection />

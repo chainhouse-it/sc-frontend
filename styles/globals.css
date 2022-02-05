@@ -69,6 +69,16 @@ body {
 	border: 1px solid transparent;
 }
 
+.bottom-border-gradient{
+	background: linear-gradient(#01000a, #01000a) padding-box,
+	linear-gradient(
+			45deg,
+			#02FE85,
+			#02FED1
+		)
+		border-box;
+	border-bottom: 1px solid transparent;
+}
 
 
 .borderAnimationOne {

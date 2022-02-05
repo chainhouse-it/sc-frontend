@@ -28,7 +28,13 @@ export default function AboutWeb3() {
 			z-10 object-cover scale-y-[1.4] scale-x-[2.1] opacity-40 xl:left-0
 			sm:scale-[3]'
                   />
-                  <div className='w-full col-span-3 p-16 z-40 border-[1px] border-[#02FE85] backdrop-blur-[250px] text-[white] rounded-xl sm:gap-5 sm:mt-20'>
+
+                  <div className='relative w-full col-span-3 p-16 z-40 border-[1px] border-[#02FE85] backdrop-blur-[250px] text-[white] rounded-xl overflow-hidden sm:gap-5 sm:mt-20'>
+                        <img
+                              src='/images/zawijas.svg'
+                              alt=''
+                              className='absolute top-0 right-0 z-10 object-cover  opacity-40 lg:hidden'
+                        />
                         <Title text="EXPERIENCE" />
                         <p className="z-20 pt-4 font-bold text-[46px] sm:text-4xl">
                               <p className="z-20">Blockchain and dApps</p>

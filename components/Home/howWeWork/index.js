@@ -14,7 +14,7 @@ function TextBox({ header, description, ImageLink }) {
 					alt=''
 				/>
 				<div className='p-8 '>
-					<div className="pr-10">
+					<div className='pr-10'>
 						<SmallHeader text={header} />
 					</div>
 					<p className='text-[#E6E6E6] text-base font-semibold py-6 sm:pt-12 '>
@@ -24,16 +24,16 @@ function TextBox({ header, description, ImageLink }) {
 			</div>
 			<div className='w-full h-[1px] bg-[#1F1E26]'></div>
 
-			<div className='text-white pl-10 py-8 font-medium text-[18px] flex items-center justify-around'>
-				<Link href='/soon'>
+			<Link href='/soon'>
+				<div className='text-white pl-10 py-8 font-medium text-[18px] flex items-center justify-around'>
 					<p>Learn More</p>
-				</Link>
-				<img
-					src={'/icons/arrow.svg'}
-					className={'scale-[0.9] pl-1 pb-1'}
-					alt=''
-				/>
-			</div>
+					<img
+						src={'/icons/arrow.svg'}
+						className={'scale-[0.9] pl-1 pb-1'}
+						alt=''
+					/>
+				</div>
+			</Link>
 		</div>
 	);
 }

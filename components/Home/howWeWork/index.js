@@ -34,7 +34,10 @@ function TextBox({ header, description, ImageLink }) {
 
 function About() {
 	return (
-		<div className='px-52 py-24 xl:px-12 sm:px-4 flex justify-start items-start font-[poppins]'>
+		<div
+			className='px-52 py-24 xl:px-12 sm:px-4 flex justify-start items-start font-[poppins]'
+			name='about'
+		>
 			<div className='w-full '>
 				<Title text='OVERVIEW' />
 				<div className='py-8'>

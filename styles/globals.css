@@ -7,6 +7,7 @@
 
 * {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 html,
@@ -14,6 +15,9 @@ body {
 	padding: 0;
 	margin: 0;
 	background: #01000a;
+}
+.typeAnimation p {
+	color: white;
 }
 
 .border-gradient-green {
@@ -57,29 +61,18 @@ body {
 	border: 1px solid transparent;
 }
 
-.border-gradient-about-web3{
+.border-gradient-about-web3 {
 	background: linear-gradient(#01000a, #01000a) padding-box,
-		linear-gradient(
-				45deg,
-				#02FE85,
-				#02FED1
-			)
-			border-box;
+		linear-gradient(45deg, #02fe85, #02fed1) border-box;
 	border-radius: 10px;
 	border: 1px solid transparent;
 }
 
-.bottom-border-gradient{
+.bottom-border-gradient {
 	background: linear-gradient(#01000a, #01000a) padding-box,
-	linear-gradient(
-			45deg,
-			#02FE85,
-			#02FED1
-		)
-		border-box;
+		linear-gradient(45deg, #02fe85, #02fed1) border-box;
 	border-bottom: 1px solid transparent;
 }
-
 
 .borderAnimationOne {
 	animation: driveAnimationOne 0.5s ease-in-out forwards;

@@ -2,7 +2,6 @@ import Head from 'next/head';
 import AboutWeb3 from '../components/Home/AboutWeb3';
 import BlockchainIndustries from '../components/Home/blockchainIndustries';
 import ContactSection from '../components/Home/contactSection';
-import Experience from '../components/Home/experience';
 import About from '../components/Home/howWeWork';
 import OurTeam from '../components/Home/ourTeam';
 import ServicesSection from '../components/Home/servicesSection';
@@ -11,8 +10,19 @@ import Hero from '../oldComponents/Hero';
 import Technologies from '../components/Home/technologies';
 import Navbar from '../components/shared/Navbar';
 import Roadmap from '../components/Home/roadmap';
+import { useEffect, useState } from 'react';
+import LoadingScreen from '../components/Home/loadingScreen';
 
 export default function Home() {
+	const [active, setActive] = useState(true);
+
+	useEffect(() => {
+		const loadingTimer = setTimeout(() => {
+			setActive(false);
+		}, 1500);
+
+		return () => clearTimeout(loadingTimer);
+	}, []);
 	return (
 		<div className='overflow-x-hidden'>
 			<Head>
@@ -23,19 +33,24 @@ export default function Home() {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<main>
-				<Navbar />
-				<Hero />
-				<Technologies />
-				<About />
-				<Experience />
-				<AboutWeb3 />
-				<OurTeam />
-				<Roadmap />
-				<ServicesSection />
-				<BlockchainIndustries />
-				<ContactSection />
-				<Footer />
+			<main className=''>
+				{active ? (
+					<LoadingScreen />
+				) : (
+					<>
+						<Navbar />
+						<Hero />
+						<Technologies />
+						<About />
+						<AboutWeb3 />
+						<OurTeam />
+						<Roadmap />
+						<ServicesSection />
+						<BlockchainIndustries />
+						<ContactSection />
+						<Footer />
+					</>
+				)}
 			</main>
 		</div>
 	);

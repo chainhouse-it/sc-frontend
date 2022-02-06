@@ -26,7 +26,7 @@ function List({ category, services }) {
 
 function ServicesSection() {
 	return (
-		<div className='px-52 py-24 xl:px-12 sm:px-4'>
+		<div className='px-52 py-24 xl:px-12 sm:px-4' name='services'>
 			<div className='my-20'>
 				<Title text='Services' />
 				<LargeHeader text='What we can do' />
@@ -57,23 +57,23 @@ const dataServices = [
 	{
 		category: 'STO (security token offering)',
 		services: [
-			'Smart Contracts',
-			'NFT Platforms Development',
+			'ido/ico',
+			'asset tokenisation',
 			'Cryptocurrency Exchanges',
-			'Practical Blockchains',
-			'Blockchain Backed Platforms',
-			'Coin/token development',
+			'p2p lending platform',
+			'metaverse',
+			'defi solutions',
+			'dApp',
 		],
 	},
 	{
 		category: 'Blockchain set up and development',
 		services: [
-			'Smart Contracts',
-			'NFT Platforms Development',
-			'Cryptocurrency Exchanges',
-			'Practical Blockchains',
-			'Blockchain Backed Platforms',
-			'Coin/token development',
+			'POC & MVP DEVELOPMENT',
+			'WEB UI/UX DEVELOPMEENT',
+			'SOLUTION TESTING',
+			'LOCKCHAIN SUPPORT & ADVISOR SERVICES',
+			'defi yield/staking/farming. Lending/borrowing',
 		],
 	},
 ];

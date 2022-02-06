@@ -2,7 +2,6 @@ import useWindowWidth from '../../../hooks/useWindowWidth';
 import { Fade as Hamburger } from 'hamburger-react';
 import { AnimatePresence, motion, useCycle } from 'framer-motion';
 import Link from 'next/link';
-
 export default function Navbar() {
 	const [open, cycleOpen] = useCycle(false, true);
 
@@ -19,15 +18,26 @@ export default function Navbar() {
 					className={`transition-opacity z-[60]`}
 					onClick={cycleOpen}
 				>
-					<Hamburger />
+					<Hamburger toggled={open} />
 				</div>
 			) : (
 				<>
 					<div className='flex flex-row items-center justify-self-center font-medium gap-8 text-lg cursor-pointer'>
-						<p>Overview</p>
-						<p>Features</p>
-						<p>Pricing</p>
-						<p>About</p>
+						<Link href='#about' passHref>
+							<p>How we work</p>
+						</Link>
+						<Link href='#web3' passHref>
+							<p>What is web3</p>
+						</Link>
+						<Link href='#ourTeam' passHref>
+							<p>Our Team</p>
+						</Link>
+						<Link href='#services' passHref>
+							<p>Services</p>
+						</Link>
+						<Link href='#development' passHref>
+							<p>Development</p>
+						</Link>
 					</div>
 					<button className='rounded-[999px] px-10 py-3 items-end backdrop-blur-[200px] bg-[#0E0D16] border'>
 						Get In Touch
@@ -59,17 +69,45 @@ export default function Navbar() {
 							transition={{ duration: 0.2, delay: 0.3 }}
 							className='text-center'
 						>
-							<p className='font-medium py-6 cursor-pointer'>
-								<Link href='#'>Overview</Link>
+							<p
+								className='font-medium py-6 cursor-pointer'
+								onClick={cycleOpen}
+							>
+								<Link href='#about' passHref>
+									How we work
+								</Link>
 							</p>
-							<p className='font-medium py-6 cursor-pointer'>
-								<Link href='#'>Features</Link>
+							<p
+								className='font-medium py-6 cursor-pointer'
+								onClick={cycleOpen}
+							>
+								<Link href='#web3' passHref>
+									What is web3
+								</Link>
 							</p>
-							<p className='font-medium py-6 cursor-pointer'>
-								<Link href='#'>Pricing</Link>
+							<p
+								className='font-medium py-6 cursor-pointer'
+								onClick={cycleOpen}
+							>
+								<Link href='#ourTeam' passHref>
+									Our Team
+								</Link>
 							</p>
-							<p className='font-medium py-6 cursor-pointer'>
-								<Link href='#'>About</Link>
+							<p
+								className='font-medium py-6 cursor-pointer'
+								onClick={cycleOpen}
+							>
+								<Link href='#services' passHref>
+									Services
+								</Link>
+							</p>
+							<p
+								className='font-medium py-6 cursor-pointer'
+								onClick={cycleOpen}
+							>
+								<Link href='#development' passHref>
+									Development
+								</Link>
 							</p>
 						</motion.div>
 					</motion.div>

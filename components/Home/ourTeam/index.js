@@ -42,7 +42,7 @@ function Member({ name, role, links, photo }) {
 
 function OurTeam() {
 	return (
-		<div className='px-52 py-24 xl:px-12 sm:px-4'>
+		<div className='px-52 py-24 xl:px-12 sm:px-4' name='ourTeam'>
 			<div className='text-center my-20'>
 				<Title text='Team' />
 				<LargeHeader text='Meet our team ' />

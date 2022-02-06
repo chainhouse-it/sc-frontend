@@ -3,7 +3,7 @@ import Title from '../../shared/Title';
 
 function ContactSection() {
 	return (
-		<div className='relative'>
+		<div className='relative' name='contact'>
 			<div className='px-52 py-32 overflow-hidden xl:px-12 xl:py-14 sm:px-4'>
 				<img
 					src='/images/contact/finalBg.png'
@@ -22,7 +22,7 @@ function ContactSection() {
 						Explain why someone should contact them, and describe
 						how they can help solve their visitors problems.
 					</p>
-					<as
+					<a
 						href='mailto: kowalik0konrad@gmail.com'
 						className='w-[210px] cursor-pointer'
 					>
@@ -37,7 +37,7 @@ function ContactSection() {
 							/>
 							<p className='pl-6'>Mail us here</p>
 						</div>
-					</as>
+					</a>
 				</div>
 			</div>
 		</div>

@@ -51,14 +51,16 @@ export default function AboutWeb3() {
 					deep orderbook on all pains.High avaliability and trade
 					matching engine to sustain a deep orderbook on all pains.
 				</p>
-				<div className='font-medium text-[18px] flex sm:px-2'>
-					<p className=''>Learn More</p>
-					<img
-						src={'/icons/arrow.svg'}
-						className={'scale-[0.9] pl-1 pb-1'}
-						alt=''
-					/>
-				</div>
+				<Link href='/soon' passHref>
+					<div className='font-medium text-[18px] flex sm:px-2'>
+						<p className=''>Learn More</p>
+						<img
+							src={'/icons/arrow.svg'}
+							className={'scale-[0.9] pl-1 pb-1'}
+							alt=''
+						/>
+					</div>
+				</Link>
 			</div>
 			<div className='z-20 py-6 w-full col-span-3 grid grid-cols-3 gap-8 content-start xl:grid-cols-1'>
 				<div className='col-span-1'>

@@ -24,7 +24,7 @@ function TextBox({ header, description, ImageLink }) {
 			</div>
 			<div className='w-full h-[1px] bg-[#1F1E26]'></div>
 
-			<Link href='/soon'>
+			<Link href='/soon' passHref>
 				<div className='text-white pl-10 py-8 font-medium text-[18px] flex items-center justify-around'>
 					<p>Learn More</p>
 					<img

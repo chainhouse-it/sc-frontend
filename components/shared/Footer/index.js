@@ -48,45 +48,45 @@ export default function Footer() {
 			</div>
 			<div className='w-1/4 flex flex-col items-end xl:hidden'>
 				<ul className='flex flex-col gap-4 font-semibold'>
-					<Link href='/soon'>
+					<Link href='/soon' passHref>
 						<li className='cursor-pointer'>Overview</li>
 					</Link>
-					<Link href='/soon'>
+					<Link href='/soon' passHref>
 						<li className='cursor-pointer'>Features</li>
 					</Link>
-					<Link href='/soon'>
+					<Link href='/soon' passHref>
 						<li className='cursor-pointer'>Pricing</li>
 					</Link>
-					<Link href='/soon'>
+					<Link href='/soon' passHref>
 						<li className='cursor-pointer'>About</li>
 					</Link>
 				</ul>
 			</div>
 			<div className='w-1/4 flex flex-col items-end xl:hidden'>
 				<ul className='flex flex-col gap-4 font-semibold'>
-					<Link href='/soon'>
+					<Link href='/soon' passHref>
 						<li className='cursor-pointer'>Developer APIs</li>
 					</Link>
-					<Link href='/soon'>
+					<Link href='/soon' passHref>
 						<li className='cursor-pointer'>Blockchain</li>
 					</Link>
-					<Link href='/soon'>
+					<Link href='/soon' passHref>
 						<li className='cursor-pointer'>dApps</li>
 					</Link>
 				</ul>
 			</div>
 			<div className='w-1/4 flex flex-col items-end xl:hidden'>
 				<ul className='flex flex-col gap-4 font-semibold'>
-					<Link href='/soon'>
+					<Link href='/soon' passHref>
 						<li className='cursor-pointer'>Assured Security</li>
 					</Link>
-					<Link href='/soon'>
+					<Link href='/soon' passHref>
 						<li className='cursor-pointer'>Transparency</li>
 					</Link>
-					<Link href='/soon'>
+					<Link href='/soon' passHref>
 						<li className='cursor-pointer'>Reliability</li>
 					</Link>
-					<Link href='/soon'>
+					<Link href='/soon' passHref>
 						<li className='cursor-pointer'>Time Efective</li>
 					</Link>
 				</ul>

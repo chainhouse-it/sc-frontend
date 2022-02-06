@@ -10,7 +10,7 @@ function ComingSoon() {
 
 			return () => clearTimeout(redirectTimeout);
 		}, 1300);
-	}, []);
+	}, [Router]);
 	return (
 		<div className='h-screen grid place-items-center text-6xl select-none font-bold scale-animation md:text-6xl typeAnimation'>
 			<TypeAnimation

@@ -43,7 +43,7 @@ export default function Roadmap() {
             </div>
 
             <div className={`w-4/5 grid text-[white] ${roadmapElements.length > 7 ? "grid-rows-7" : ""} grid-flow-col sm:justify-items-center sm:grid-flow-row 2xl:w-full `}>
-                {roadmapElements.map(element => (
+                {roadmapElements.map((element, key) => (
                     <div className="
                     py-4 
                     border-b-[1px] 
@@ -55,8 +55,9 @@ export default function Roadmap() {
                     gap-5
                     sm:w-4/5
                     xs:w-5/6
-                    ">
-                        <img src={`/icons/roadmap/${element.isDone ? "done" : "planned"}.svg`} />
+                    "
+                        key={key}>
+                        <img src={`/icons/roadmap/${element.isDone ? "done" : "planned"}.svg`} alt='' />
                         {element.content}
                     </div>
                 ))}

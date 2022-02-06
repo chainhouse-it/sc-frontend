@@ -1,11 +1,10 @@
 import Title from '../../shared/Title';
 import LargeHeader from '../../shared/LargeHeader';
-import SmallHeader from '../../shared/SmallHeader';
 
 function InfoBlock({ imgUrl, title, content }) {
       return (
             <div className="col-span-3 p-8 text-[white] font-[poppins] border-[1px] border-[#02FE85] backdrop-blur-[500px] rounded-xl">
-                  <img src={imgUrl} className="w-[75px] " />
+                  <img src={imgUrl} className="w-[75px] " alt='' />
                   <p className="text-[25px] font-bold py-4">{title}</p>
                   <p className="text-[16px] font-semibold text-[#CFCED8] pb-6 ">{content}</p>
             </div>
@@ -36,10 +35,10 @@ export default function AboutWeb3() {
                               className='absolute top-0 right-0 z-10 object-cover  opacity-40 lg:hidden'
                         />
                         <Title text="EXPERIENCE" />
-                        <p className="z-20 pt-4 font-bold text-[46px] sm:text-4xl">
+                        <div className="z-20 pt-4 font-bold text-[46px] sm:text-4xl">
                               <p className="z-20">Blockchain and dApps</p>
-                        </p>
-                        <p className="w-3/4 font-semibold text-[#CFCED8] font-[20px] py-8 lg:w-4/5 sm:w-full sm:font-4xl">High avaliability and trade matching engine to sustain a deep orderbook on all pains. High avaliability and trade matching engine to sustain a deep orderbook on all pains. High avaliability and trade matching engine to sustain a deep orderbook on all pains.High avaliability and trade matching engine to sustain a deep orderbook on all pains.</p>
+                        </div>
+                        <p className="w-3/4 font-semibold text-[#CFCED8] font-[20px] py-8 pr-8 text-justify lg:w-4/5 sm:w-full sm:font-4xl">High avaliability and trade matching engine to sustain a deep orderbook on all pains. High avaliability and trade matching engine to sustain a deep orderbook on all pains. High avaliability and trade matching engine to sustain a deep orderbook on all pains.High avaliability and trade matching engine to sustain a deep orderbook on all pains.</p>
                         <div className='font-medium text-[18px] flex'>
                               <p className="">Learn More</p>
                               <img

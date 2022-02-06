@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export default function Footer() {
 	return (
 		<footer className='px-52 py-24 flex justify-between text-white relative xl:px-12 xl:py-14 sm:px-4'>
@@ -9,63 +10,85 @@ export default function Footer() {
 				</p>
 				<div className='flex gap-3'>
 					<a
-						href='https://facebook.com'
+						href='https://www.facebook.com/Chainhouseit-103783152230842'
 						target='_blank'
 						rel='noreferrer'
 					>
 						<img src='/icons/footer/facebook.png' alt='' />
 					</a>
 					<a
-						href='https://facebook.com'
+						href='https://twitter.com/chainhouse_it'
 						target='_blank'
 						rel='noreferrer'
 					>
 						<img src='/icons/footer/twitter.png' alt='' />
 					</a>
 					<a
-						href='https://facebook.com'
+						href='https://www.instagram.com/chainhouse.it/'
 						target='_blank'
 						rel='noreferrer'
 					>
 						<img src='/icons/footer/instagram.png' alt='' />
 					</a>
 					<a
-						href='https://facebook.com'
+						href='https://www.linkedin.com/company/chainhouse'
 						target='_blank'
 						rel='noreferrer'
 					>
 						<img src='/icons/footer/linkedin.png' alt='' />
 					</a>
-					<a
+					{/* <a
 						href='https://facebook.com'
 						target='_blank'
 						rel='noreferrer'
 					>
 						<img src='/icons/footer/github.png' alt='' />
-					</a>
+					</a> */}
 				</div>
 			</div>
 			<div className='w-1/4 flex flex-col items-end xl:hidden'>
 				<ul className='flex flex-col gap-4 font-semibold'>
-					<li>Overview</li>
-					<li>Features</li>
-					<li>Pricing</li>
-					<li>About</li>
+					<Link href='/soon'>
+						<li className='cursor-pointer'>Overview</li>
+					</Link>
+					<Link href='/soon'>
+						<li className='cursor-pointer'>Features</li>
+					</Link>
+					<Link href='/soon'>
+						<li className='cursor-pointer'>Pricing</li>
+					</Link>
+					<Link href='/soon'>
+						<li className='cursor-pointer'>About</li>
+					</Link>
 				</ul>
 			</div>
 			<div className='w-1/4 flex flex-col items-end xl:hidden'>
 				<ul className='flex flex-col gap-4 font-semibold'>
-					<li>Developer APIs</li>
-					<li>Blockchain</li>
-					<li>dApps</li>
+					<Link href='/soon'>
+						<li className='cursor-pointer'>Developer APIs</li>
+					</Link>
+					<Link href='/soon'>
+						<li className='cursor-pointer'>Blockchain</li>
+					</Link>
+					<Link href='/soon'>
+						<li className='cursor-pointer'>dApps</li>
+					</Link>
 				</ul>
 			</div>
 			<div className='w-1/4 flex flex-col items-end xl:hidden'>
 				<ul className='flex flex-col gap-4 font-semibold'>
-					<li>Assured Security</li>
-					<li>Transparency</li>
-					<li>Reliability</li>
-					<li>Time Efective</li>
+					<Link href='/soon'>
+						<li className='cursor-pointer'>Assured Security</li>
+					</Link>
+					<Link href='/soon'>
+						<li className='cursor-pointer'>Transparency</li>
+					</Link>
+					<Link href='/soon'>
+						<li className='cursor-pointer'>Reliability</li>
+					</Link>
+					<Link href='/soon'>
+						<li className='cursor-pointer'>Time Efective</li>
+					</Link>
 				</ul>
 			</div>
 		</footer>

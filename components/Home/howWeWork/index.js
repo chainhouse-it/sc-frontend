@@ -1,5 +1,6 @@
 import LargeHeader from '../../shared/LargeHeader';
 import Title from '../../shared/Title';
+import Link from 'next/link';
 
 function TextBox({ header, description, ImageLink }) {
 	return (
@@ -21,7 +22,9 @@ function TextBox({ header, description, ImageLink }) {
 			<div className='w-full h-[1px] bg-[#1F1E26]'></div>
 
 			<div className='text-white pl-10 py-8 font-medium text-[18px] flex items-center justify-around'>
-				<p>Learn More</p>
+				<Link href='/soon'>
+					<p>Learn More</p>
+				</Link>
 				<img
 					src={'/icons/arrow.svg'}
 					className={'scale-[0.9] pl-1 pb-1'}

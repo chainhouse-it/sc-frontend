@@ -1,12 +1,13 @@
 import Title from '../../shared/Title';
 import LargeHeader from '../../shared/LargeHeader';
+import Link from 'next/link';
 
 function InfoBlock({ imgUrl, title, content }) {
 	return (
 		<div className='col-span-3 p-8 text-[white] font-[poppins] border-[1px] border-[#02FE85] backdrop-blur-[500px] rounded-xl'>
-			<img src={imgUrl} className='w-[75px] ' alt='' />
+			<img src={imgUrl} className='w-[75px]' alt='' />
 			<p className='text-[25px] font-bold py-4'>{title}</p>
-			<p className='text-[16px] font-semibold text-[#CFCED8] pb-6 '>
+			<p className='text-[16px] font-semibold text-[#CFCED8] pb-6 text-justify'>
 				{content}
 			</p>
 		</div>
@@ -22,7 +23,7 @@ export default function AboutWeb3() {
 			<div className='flex flex-col items-center col-span-3'>
 				<Title text='EXPERIENCE' />
 				<div className='py-6 z-20 pb-20 sm:py-4'>
-					<LargeHeader text='What exactly is web3? ' />
+					<LargeHeader text='What exactly is web3?' />
 				</div>
 			</div>
 			<img
@@ -52,7 +53,9 @@ export default function AboutWeb3() {
 					matching engine to sustain a deep orderbook on all pains.
 				</p>
 				<div className='font-medium text-[18px] flex'>
-					<p className=''>Learn More</p>
+					<Link href='/soon'>
+						<p className='cursor-pointer'>Learn More</p>
+					</Link>
 					<img
 						src={'/icons/arrow.svg'}
 						className={'scale-[0.9] pl-1 pb-1'}

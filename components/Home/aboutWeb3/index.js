@@ -33,10 +33,9 @@ export default function AboutWeb3() {
 			z-10 object-cover scale-y-[1.4] scale-x-[2.1] opacity-40 xl:left-0
 			sm:scale-[3]'
 			/>
-
-			<div className='relative w-full col-span-3 p-16 z-40 border-[1px] border-[#02FE85] backdrop-blur-[250px] text-[white] rounded-xl overflow-hidden sm:gap-5 sm:mt-20'>
+			<div className='relative w-full col-span-3 p-16  z-40 border-[1px] border-[#02FE85] backdrop-blur-[250px] text-[white] rounded-xl overflow-hidden sm:gap-5 sm:mt-20 sm:px-4 text-center'>
 				<img
-					src='/images/reverseSquare.svg'
+					src='/images/zawijas.svg'
 					alt=''
 					className='absolute top-0 right-0 z-10 object-cover  opacity-40 lg:hidden'
 				/>
@@ -44,7 +43,7 @@ export default function AboutWeb3() {
 				<div className='z-20 pt-4 font-bold text-[46px] sm:text-4xl'>
 					<p className='z-20'>Blockchain and dApps</p>
 				</div>
-				<p className='w-3/4 font-semibold text-[#CFCED8] font-[20px] py-8 pr-8 text-justify lg:w-4/5 sm:w-full sm:font-4xl'>
+				<p className='w-3/4 font-semibold text-[#CFCED8] font-[20px] py-8 pr-8 text-justify sm:px-2 lg:w-4/5 sm:w-full sm:font-4xl'>
 					High avaliability and trade matching engine to sustain a
 					deep orderbook on all pains. High avaliability and trade
 					matching engine to sustain a deep orderbook on all pains.
@@ -52,10 +51,8 @@ export default function AboutWeb3() {
 					deep orderbook on all pains.High avaliability and trade
 					matching engine to sustain a deep orderbook on all pains.
 				</p>
-				<div className='font-medium text-[18px] flex'>
-					<Link href='/soon'>
-						<p className='cursor-pointer'>Learn More</p>
-					</Link>
+				<div className='font-medium text-[18px] flex sm:px-2'>
+					<p className=''>Learn More</p>
 					<img
 						src={'/icons/arrow.svg'}
 						className={'scale-[0.9] pl-1 pb-1'}

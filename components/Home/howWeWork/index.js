@@ -1,4 +1,5 @@
 import LargeHeader from '../../shared/LargeHeader';
+import SmallHeader from '../../shared/SmallHeader';
 import Title from '../../shared/Title';
 import Link from 'next/link';
 
@@ -12,8 +13,10 @@ function TextBox({ header, description, ImageLink }) {
 				sm:w-[125px] xs:w-[100px] xs:top-2'
 					alt=''
 				/>
-				<div className='p-8'>
-					<p className='text-white text-2xl font-bold'>{header}</p>
+				<div className='p-8 '>
+					<div className="pr-10">
+						<SmallHeader text={header} />
+					</div>
 					<p className='text-[#E6E6E6] text-base font-semibold py-6 sm:pt-12 '>
 						{description}
 					</p>

@@ -90,7 +90,7 @@ const team = [
 	},
 	{
 		name: 'Jan Piotrzkowski',
-		role: 'Web3 dev',
+		role: 'Fullstack dev',
 		photo: '/images/members/jan-piotrzkowski.jpg',
 		link: 'https://www.linkedin.com/in/jan-piotrzkowski-3a8789158/',
 	},

@@ -3,7 +3,10 @@ import SmallHeader from '../../shared/SmallHeader';
 import Title from '../../shared/Title';
 function Contact() {
 	return (
-		<div className='flex items-center relative w-full px-52 justify-between xl:flex-col md:px-4 md:pt-40 sm:pt-0'>
+		<div
+			className='flex items-center relative w-full px-52 justify-between xl:flex-col md:px-4 md:pt-40 sm:pt-0'
+			name='#contact'
+		>
 			<div className='sm:text-center'>
 				<Title text='Contact' />
 				<div className='flex py-2 items-center sm:py-0 sm:flex-col'>

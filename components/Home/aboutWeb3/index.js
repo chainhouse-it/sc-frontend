@@ -26,7 +26,7 @@ export default function AboutWeb3() {
                         className='absolute left-32 top-12
 			z-10 object-cover scale-y-[1.4] scale-x-[2.1] opacity-40 xl:left-0
 			sm:scale-[3]'
-                  />
+			/>
 
                   <div className='relative w-full col-span-3 p-16  z-40 border-[1px] border-[#02FE85] backdrop-blur-[250px] text-[white] rounded-xl overflow-hidden sm:gap-5 sm:mt-20 sm:px-4 text-center'>
                         <img

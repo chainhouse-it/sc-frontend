@@ -1,5 +1,5 @@
-import LargeHeader from "../../shared/LargeHeader";
-import Title from "../../shared/Title";
+import LargeHeader from '../../shared/LargeHeader';
+import Title from '../../shared/Title';
 
 export default function Roadmap() {
     return (
@@ -42,45 +42,43 @@ export default function Roadmap() {
                 </div>
             </div>
 
-            <div className={`w-4/5 grid text-[white] ${roadmapElements.length > 7 ? "grid-rows-7" : ""} grid-flow-col sm:justify-items-center sm:grid-flow-row 2xl:w-full `}>
-                {roadmapElements.map((element, key) => (
-                    <div className="
-                    py-4 
-                    border-b-[1px] 
-                    border-[#222125] 
-                    w-4/5
-                    text-[18px]
-                    tracking-tight
-                    flex
-                    gap-5
-                    sm:w-4/5
-                    xs:w-5/6
-                    "
-                        key={key}>
-                        <img src={`/icons/roadmap/${element.isDone ? "done" : "planned"}.svg`} alt='' />
-                        {element.content}
-                    </div>
-                ))}
-            </div>
-
-        </div>
-    )
+			<div
+				className={`w-4/5 grid text-[white] ${
+					roadmapElements.length > 7 ? 'grid-rows-7' : ''
+				} grid-flow-col sm:justify-items-center sm:grid-flow-row 2xl:w-full `}
+			>
+				{roadmapElements.map((element, key) => (
+					<div
+						className='py-4 border-b-[1px] border-[#222125] w-4/5 text-[18px] tracking-tight flex gap-5 sm:w-4/5 xs:w-5/6'
+						key={key}
+					>
+						<img
+							src={`/icons/roadmap/${
+								element.isDone ? 'done' : 'planned'
+							}.svg`}
+							alt=''
+						/>
+						{element.content}
+					</div>
+				))}
+			</div>
+		</div>
+	);
 }
 
 const roadmapElements = [
-    { content: 'Setting up legal entity', isDone: true },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-    { content: 'Setting up legal entity', isDone: false },
-
-]
+	{ content: 'Setting up legal entity', isDone: true },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: false },
+];

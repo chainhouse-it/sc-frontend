@@ -20,8 +20,8 @@ export default function Hero() {
 				Ethereum.
 			</p>
 			<div className='flex gap-4'>
-				<PrimaryButton text='Get in touch' link='#' />
-				<PrimaryButton text='Roadmap' link='#' isReversed />
+				<PrimaryButton text='Get in touch' link='#contact' />
+				<PrimaryButton text='Roadmap' link='#roadmap' isReversed />
 			</div>
 		</div>
 	);

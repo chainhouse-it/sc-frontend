@@ -12,7 +12,10 @@ function Card({ name }) {
 
 function BlockchainIndustries() {
 	return (
-		<div className='px-52 py-24 xl:px-12 sm:px-4 relative overflow-hidden'>
+		<div
+			className='px-52 py-24 xl:px-12 sm:px-4 relative overflow-hidden'
+			name='development'
+		>
 			<img
 				src='/images/background.png'
 				alt=''

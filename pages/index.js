@@ -6,7 +6,7 @@ import About from '../components/Home/howWeWork';
 import OurTeam from '../components/Home/ourTeam';
 import ServicesSection from '../components/Home/servicesSection';
 import Footer from '../components/shared/Footer';
-import Hero from '../oldComponents/Hero';
+import Hero from '../components/Home/Hero';
 import Technologies from '../components/Home/technologies';
 import Navbar from '../components/shared/Navbar';
 import Roadmap from '../components/Home/roadmap';

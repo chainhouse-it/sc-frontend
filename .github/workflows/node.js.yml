@@ -10,7 +10,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [12.x, 14.x, 16.x]
+                node-version: [16.x]
 
         steps:
             - uses: actions/checkout@v2
@@ -31,6 +31,9 @@ jobs:
                   script: |
                       cd /root/github/sc-frontend
                       git pull
+                      export NVM_DIR=~/.nvm
+                      source ~/.nvm/nvm.sh
                       npm install
                       npm run build
+
 

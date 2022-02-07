@@ -52,8 +52,10 @@ export default function AboutWeb3() {
 					matching engine to sustain a deep orderbook on all pains.
 				</p>
 				<Link href='/soon' passHref>
-					<div className='font-medium text-[18px] flex sm:px-2'>
-						<p className=''>Learn More</p>
+					<div className='font-medium text-[18px] flex sm:px-2 cursor-pointer'>
+						<p className='hover:scale-[1.05] hover:pr-2 transition-all'>
+							Learn More
+						</p>
 						<img
 							src={'/icons/arrow.svg'}
 							className={'scale-[0.9] pl-1 pb-1'}

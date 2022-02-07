@@ -11,7 +11,7 @@ function Technologies() {
 			z-10 object-cover scale-[1.5] scale-x-[2.1] opacity-50 xl:left-0
 			sm:scale-[3]'
 			/>
-			<div className='w-4/5 flex items-center justify-center flex-col gap-0 text-center z-40  border-[2px] border-[#02FE85] backdrop-blur-[200px] rounded-lg p-4 pt-8 sm:gap-5 sm:mt-20'>
+			<div className='w-4/5 flex items-center justify-center flex-col gap-0 text-center z-40  border-[2px] border-[#02FE85] backdrop-blur-[200px] rounded-lg p-4 pt-8 sm:gap-5 sm:mt-20 sm:w-full'>
 				<Title text='OUR TECHNOLOGIES' />
 				<div className='pt-4'>
 					<SmallHeader text='Technologies we use' />

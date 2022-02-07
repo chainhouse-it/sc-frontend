@@ -72,7 +72,7 @@ const dataServices = [
 			'POC & MVP DEVELOPMENT',
 			'WEB UI/UX DEVELOPMEENT',
 			'SOLUTION TESTING',
-			'LOCKCHAIN SUPPORT & ADVISOR SERVICES',
+			'BLOCKCHAIN SUPPORT & ADVISOR SERVICES',
 			'defi yield/staking/farming. Lending/borrowing',
 		],
 	},

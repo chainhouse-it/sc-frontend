@@ -23,7 +23,7 @@ function ContactSection() {
 						how they can help solve their visitors problems.
 					</p>
 					<a
-						href='mailto: kowalik0konrad@gmail.com'
+						href='mailto:contact@chainhouse.it'
 						className='w-[210px] cursor-pointer'
 					>
 						<div

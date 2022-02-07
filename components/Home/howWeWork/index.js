@@ -25,8 +25,10 @@ function TextBox({ header, description, ImageLink }) {
 			<div className='w-full h-[1px] bg-[#1F1E26]'></div>
 
 			<Link href='/soon' passHref>
-				<div className='text-white pl-10 py-8 font-medium text-[18px] flex items-center justify-around'>
-					<p>Learn More</p>
+				<div className='text-white pl-10 py-8 font-medium text-[18px] flex items-center justify-around cursor-pointer z-50'>
+					<p className='hover:scale-[1.05] hover:pr-2 transition-all'>
+						Learn More
+					</p>
 					<img
 						src={'/icons/arrow.svg'}
 						className={'scale-[0.9] pl-1 pb-1'}
@@ -41,7 +43,7 @@ function TextBox({ header, description, ImageLink }) {
 function About() {
 	return (
 		<div
-			className='px-52 py-24 xl:px-12 sm:px-4 flex justify-start items-start font-[poppins]'
+			className='px-52 py-32 xl:px-12 sm:px-4 flex justify-start items-start font-[poppins]'
 			name='about'
 		>
 			<div className='w-full '>

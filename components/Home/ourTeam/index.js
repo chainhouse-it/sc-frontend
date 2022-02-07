@@ -1,23 +1,33 @@
 import LargeHeader from '../../shared/LargeHeader';
 import Title from '../../shared/Title';
-import Link from 'next/link';
 
 function Member({ name, role, link, photo }) {
 	return (
-		<Link href={link} passHref>
-			<div className='flex flex-col items-center 3xl:max-w-[400px] border-gradient-green'>
-				<div className='my-10 border-2 border-[#02fe9e] rounded-[9999px] overflow-hidden'>
-					<img
-						src={photo}
-						alt=''
-						className='w-[150px] h-[150px] object-cover'
-					/>
-				</div>
-				<p className='text-2xl font-bold text-[#f1f1f1]'>{name}</p>
-				<p className='text-lg pt-4 font-light text-[#CFCED8] pb-4'>
-					{role}
-				</p>
-				{/* <div className='flex w-full gap-4 justify-center my-8'>
+		<div className='relative flex flex-col items-center 3xl:max-w-[400px] border-gradient-green'>
+			<div className='my-10 border-2 border-[#02fe9e] rounded-[9999px] overflow-hidden'>
+				<img
+					src={photo}
+					alt=''
+					className='w-[150px] h-[150px] object-cover'
+				/>
+			</div>
+			<p className='text-2xl font-bold text-[#f1f1f1]'>{name}</p>
+			<p className='text-lg pt-4 font-light text-[#CFCED8] pb-4'>
+				{role}
+			</p>
+			<a
+				target='_blank'
+				href={link}
+				rel='noreferrer'
+				className='absolute top-5 right-5'
+			>
+				<img
+					src='/icons/linkedin.png'
+					className='cursor-pointer'
+					alt=''
+				/>
+			</a>
+			{/* <div className='flex w-full gap-4 justify-center my-8'>
 				<a target='_blank' href={links[0]} rel='noreferrer'>
 				<img
 				src='/icons/ig.png'
@@ -40,8 +50,7 @@ function Member({ name, role, link, photo }) {
 				/>
 				</a>
 			</div> */}
-			</div>
-		</Link>
+		</div>
 	);
 }
 
@@ -86,7 +95,7 @@ const team = [
 		name: 'Piotr Galka',
 		role: 'Web3 dev',
 		photo: '/images/members/piotr-galka.jpg',
-		link: '',
+		link: 'https://www.linkedin.com/in/piotr-ga%C5%82ka-47224a230/',
 	},
 	{
 		name: 'Jan Piotrzkowski',
@@ -95,15 +104,17 @@ const team = [
 		link: 'https://www.linkedin.com/in/jan-piotrzkowski-3a8789158/',
 	},
 	{
-		name: 'Łukasz Korba',
-		role: 'Senior blockchain dev',
-		photo: '/images/members/lukasz-korba.jpg',
-		link: 'https://www.linkedin.com/in/korba-lukasz/',
-	},
-	{
 		name: 'Easin Arafat',
 		role: 'UI/UX designer',
 		photo: '/images/members/easin-arafat.jpg',
 		link: 'https://www.linkedin.com/in/uxeasin/',
 	},
 ];
+
+/* 
+	{
+		name: 'Łukasz Korba',
+		role: 'Senior blockchain dev',
+		photo: '/images/members/lukasz-korba.jpg',
+		link: 'https://www.linkedin.com/in/korba-lukasz/',
+	}, */

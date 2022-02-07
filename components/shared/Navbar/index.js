@@ -11,7 +11,7 @@ export default function Navbar() {
 		>
 			<p className='text-4xl font-light z-20'>
 				<span className='font-bold'>chain</span>
-				<span className='font-light'>house.io</span>
+				<span className='font-light'>house.it</span>
 			</p>
 			{useWindowWidth() < 1280 ? (
 				<div

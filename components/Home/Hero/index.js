@@ -19,7 +19,7 @@ export default function Hero() {
 				for your needs - both commonly available ecosystems like
 				Ethereum.
 			</p>
-			<div className='flex px-4'>
+			<div className='flex gap-4'>
 				<PrimaryButton text='Get in touch' link='#contact' />
 				<PrimaryButton text='Roadmap' link='#roadmap' isReversed />
 			</div>

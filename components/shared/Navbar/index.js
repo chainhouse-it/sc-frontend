@@ -32,7 +32,7 @@ export default function Navbar() {
 						<Link href='#ourTeam' passHref>
 							<p>Our Team</p>
 						</Link>
-						<Link href='#services' passHref>
+						<Link shref='#services' passHref>
 							<p>Services</p>
 						</Link>
 						<Link href='#development' passHref>

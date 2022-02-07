@@ -39,9 +39,11 @@ export default function Navbar() {
 							<p>Development</p>
 						</Link>
 					</div>
-					<button className='rounded-[999px] px-10 py-3 items-end backdrop-blur-[200px] bg-[#0E0D16] border'>
-						Get In Touch
-					</button>
+					<Link href='#contact' passHref>
+						<button className='rounded-[999px] px-10 py-3 items-end backdrop-blur-[200px] bg-[#0E0D16] border'>
+							Get In Touch
+						</button>
+					</Link>
 				</>
 			)}
 			<AnimatePresence>

@@ -30,4 +30,7 @@ jobs:
                   port: ${{ secrets.PORT }}
                   script: |
                       cd /root/github/sc-frontend
+                      git pull
+                      npm install
+                      npm run build
 

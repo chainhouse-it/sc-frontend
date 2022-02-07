@@ -35,7 +35,7 @@ export default function AboutWeb3() {
 			/>
 			<div className='relative w-full col-span-3 p-16  z-40 border-[1px] border-[#02FE85] backdrop-blur-[250px] text-[white] rounded-xl overflow-hidden sm:gap-5 sm:mt-20 sm:px-4 text-center'>
 				<img
-					src='/images/zawijas.svg'
+					src='/images/reverseSquare.svg'
 					alt=''
 					className='absolute top-0 right-0 z-10 object-cover  opacity-40 lg:hidden'
 				/>

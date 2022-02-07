@@ -1,11 +1,7 @@
 import ComingSoon from '../../components/Home/ComingSoon';
 
 function Soon() {
-	return (
-		<div>
-			<ComingSoon />
-		</div>
-	);
+	return <ComingSoon />;
 }
 
 export default Soon;

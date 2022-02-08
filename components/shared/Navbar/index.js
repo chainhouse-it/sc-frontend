@@ -27,7 +27,7 @@ export default function Navbar() {
 							<p>How we work</p>
 						</Link>
 						<Link href='#web3' passHref>
-							<p>What is web3</p>
+							<p>What is Web3</p>
 						</Link>
 						<Link href='#ourTeam' passHref>
 							<p>Our Team</p>

@@ -32,13 +32,7 @@ export default function Navbar() {
 						<Link href='#ourTeam' passHref>
 							<p>Our Team</p>
 						</Link>
-						<Link shref='#services' passHref>
-							<p>Services</p>
-						</Link>
-						<Link href='#development' passHref>
-							<p>Development</p>
-						</Link>
-					</div>
+						<Linassssssssssssssssssss
 					<Link href='#contact' passHref>
 						<button className='rounded-[999px] px-10 py-3 items-end backdrop-blur-[200px] bg-[#0E0D16] border'>
 							Get In Touch

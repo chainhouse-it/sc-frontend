@@ -9,7 +9,7 @@ function TextBox({ header, description, ImageLink }) {
 			<div className='flex justify-start items-start sm:relative sm:flex-col'>
 				<img
 					src={ImageLink}
-					className='px-8 pt-6 sm:absolute sm:right-0 sm:top-0
+					className='px-8 pr-2 pt-6 sm:absolute sm:right-0 sm:top-0
 				sm:w-[125px] xs:w-[100px] xs:top-2'
 					alt=''
 				/>
@@ -52,29 +52,30 @@ function About() {
 					<LargeHeader text='How we work' />
 				</div>
 				<p className='text-[#CFCED8] text-lg pb-20 w-1/2 xl:w-full'>
-					Learn about our competences in designing blockchain
-					solutions for your needs - both commonly available
-					ecosystems like Ethereum.
+					We start with a meeting to get to know you and your idea. That's when a lot of ideas come in - both ways.
+					You can come to us with ready technical documentation and have the already described and designed system created. We can then start work on software development the next day after agreeing the terms of cooperation. The system you outsource is created quickly and efficiently
+
 				</p>
 				<div className='grid grid-cols-2 gap-14 xl:grid-cols-1'>
 					<TextBox
-						header='High performance'
-						description='High avaliability and  matching engine to sustain a deep orderbook on all pains. '
+						header='List of products to be made'
+						description='This is a list of all the things you will need to do for the project. The list is never complete - it evolves along with the product itself and can be freely changed at any point in the project development process. We also set the MVP of the project (Minimum Viable Product), which will allow the project to be implemented in stages and gradually expand the application.'
 						ImageLink='/images/circle.png'
 					/>
 					<TextBox
-						header='Best effieciency'
-						description='High avaliability and trade matching engine to sustain a deep orderbook on all pains.'
+						header='List Planning by You'
+						description='The next functions that need to be performed are selected by you. Then at the meeting, the team has to answer the question: "What can it provide in the upcoming planning?" and move the expected task to the main task list.
+						'
 						ImageLink='/images/chart.png'
 					/>
 					<TextBox
-						header='Solid security'
-						description='High avaliability and trade matching engine to sustain a deep orderbook on all pains.'
+						header='To-do list'
+						description='the team selects tasks and goals that we have set together. An action plan is established and people are assigned to tasks. Full access to our project management tool allows you to see the progress 24/7. You can communicate directly with the team as often as you wish.'
 						ImageLink='/images/shield.png'
 					/>
 					<TextBox
-						header='Quality of customer service'
-						description='High avaliability and trade matching engine to sustain a deep orderbook on all pains.'
+						header='Retrospective'
+						description='During the meeting, the team focuses not on the software, but on improving the development process itself. In this way, it is always in line with changing conditions and the different stages of the software life cycle, as well as with the news of the trend.'
 						ImageLink='/images/wallet.png'
 					/>
 				</div>

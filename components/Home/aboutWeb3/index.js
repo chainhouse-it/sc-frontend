@@ -21,7 +21,7 @@ export default function AboutWeb3() {
 			name='web3'
 		>
 			<div className='flex flex-col items-center col-span-3'>
-				<Title text='EXPERIENCE' />
+				<Title text='TECHNOLOGY' />
 				<div className='py-6 z-20 pb-20 sm:py-4'>
 					<LargeHeader text='What exactly is web3?' />
 				</div>
@@ -39,17 +39,15 @@ export default function AboutWeb3() {
 					alt=''
 					className='absolute top-0 right-0 z-10 object-cover  opacity-40 lg:hidden'
 				/>
-				<Title text='EXPERIENCE' />
+				<Title text='Web 3.0' />
 				<div className='z-20 pt-4 font-bold text-[46px] sm:text-4xl'>
-					<p className='z-20'>Blockchain and dApps</p>
+					<p className='z-20'>What makes Web 3.0 better than its predecessors?</p>
 				</div>
 				<p className='w-3/4 font-semibold text-[#CFCED8] font-[20px] py-8 pr-8 text-justify sm:px-2 lg:w-4/5 sm:w-full sm:font-4xl'>
-					High avaliability and trade matching engine to sustain a
-					deep orderbook on all pains. High avaliability and trade
-					matching engine to sustain a deep orderbook on all pains.
-					High avaliability and trade matching engine to sustain a
-					deep orderbook on all pains.High avaliability and trade
-					matching engine to sustain a deep orderbook on all pains.
+					No Central Control Point: Since middlemen are eliminated from the equation, users' data will no longer be controlled by them. This reduces the risk of censorship by governments and corporations, and reduces the effectiveness of Denial-of-Service (DoS) files.
+					Increased Interconnectivity of Information: As more and more products connect to the Internet, larger datasets provide algorithms with more information for analysis. This can help to provide more accurate information that takes into account the needs of individual users.
+					Browsing more efficiently: When using the internet search engines, finding the best result could be tiresome.
+
 				</p>
 				<Link href='/soon' passHref>
 					<div className='font-medium text-[18px] flex sm:px-2 cursor-pointer'>
@@ -68,22 +66,22 @@ export default function AboutWeb3() {
 				<div className='col-span-1'>
 					<InfoBlock
 						imgUrl={'/about/flying-coins.png'}
-						title='dApps'
-						content='High  avaliability  and trade  matching engine to sustain a deep orderbook on all pains. High avaliability '
+						title='Naming'
+						content='internet 3.0 is an open, trustless and permissionless network that permits a future wherein distributed users and machines are able to have interaction with data, value and different counterparties via a substrate of peer-to-peer networks without the need for third parties.3.0 is a term used to describe the next phase of the Internet, in which users can not only read and add content (web 2.0), but also “own” it.'
 					/>
 				</div>
 				<div className='col-span-1'>
 					<InfoBlock
-						imgUrl={'/about/flying-coins.png'}
-						title='dApps'
-						content='High  avaliability  and trade  matching engine to sustain a deep orderbook on all pains. High avaliability '
+						imgUrl={'/about/blockchain.png'}
+						title='Decentralization'
+						content='Internet applications in web3 do not run on a single server, but operate in a decentralized and scattered network of computers - these are the so-called "Decentralized Applications" (DApps). These applications do not require trust because they are open source, nor permission to use them (in most cases).'
 					/>
 				</div>
 				<div className='col-span-1'>
 					<InfoBlock
-						imgUrl={'/about/flying-coins.png'}
-						title='dApps'
-						content='High  avaliability  and trade  matching engine to sustain a deep orderbook on all pains. High avaliability '
+						imgUrl={'/about/candles.png'}
+						title='Tokenization'
+						content='In Web3 it is possible to tokenize ... almost everything. Tokenization, which is a certain process that allows you to create or "move something" into the blockchain. This could be the creation of exchange units, i.e. tokens that are used to vote, distribute profits, and transfer value in a decentralized and almost unlimited manner.'
 					/>
 				</div>
 			</div>

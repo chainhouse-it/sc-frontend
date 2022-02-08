@@ -38,9 +38,8 @@ export default function Roadmap() {
 			</div>
 
 			<div
-				className={`w-4/5 grid text-[white] ${
-					roadmapElements.length > 7 ? 'grid-rows-7' : ''
-				} grid-flow-col sm:justify-items-center sm:grid-flow-row 2xl:w-full `}
+				className={`w-4/5 grid text-[white] ${roadmapElements.length > 7 ? 'grid-rows-7' : ''
+					} grid-flow-col sm:justify-items-center sm:grid-flow-row 2xl:w-full `}
 			>
 				{roadmapElements.map((element, key) => (
 					<div
@@ -48,9 +47,8 @@ export default function Roadmap() {
 						key={key}
 					>
 						<img
-							src={`/icons/roadmap/${
-								element.isDone ? 'done' : 'planned'
-							}.svg`}
+							src={`/icons/roadmap/${element.isDone ? 'done' : 'planned'
+								}.svg`}
 							alt=''
 						/>
 						{element.content}
@@ -62,18 +60,13 @@ export default function Roadmap() {
 }
 
 const roadmapElements = [
-	{ content: 'Setting up legal entity', isDone: true },
 	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Market research', isDone: false },
+	{ content: 'Searching for people with inspiration and experience', isDone: false },
+	{ content: 'Core team foundation', isDone: false },
+	{ content: 'Establishing a software house strategy', isDone: false },
+	{ content: 'Design and construction of the website', isDone: false },
+	{ content: 'Creating marketing strategy', isDone: false },
+	{ content: 'Getting acquainted with the first customers', isDone: false },
+	{ content: 'Work on the first project', isDone: false }
 ];

@@ -52,8 +52,7 @@ function About() {
 					<LargeHeader text='How we work' />
 				</div>
 				<p className='text-[#CFCED8] text-lg pb-20 w-1/2 xl:w-full'>
-					We start with a meeting to get to know you and your idea. That's when a lot of ideas come in - both ways.
-					You can come to us with ready technical documentation and have the already described and designed system created. We can then start work on software development the next day after agreeing the terms of cooperation. The system you outsource is created quickly and efficiently
+					We start with a meeting to get to know you and your idea. That&apos;s when a lot of ideas come in - both ways. You can come to us with ready technical documentation and have the already described and designed system created. We can then start work on software development the next day after agreeing the terms of cooperation. The system you outsource is created quickly and efficiently
 
 				</p>
 				<div className='grid grid-cols-2 gap-14 xl:grid-cols-1'>

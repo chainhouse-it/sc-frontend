@@ -44,10 +44,7 @@ export default function AboutWeb3() {
 					<p className='z-20'>What makes Web 3.0 better than its predecessors?</p>
 				</div>
 				<p className='w-3/4 font-semibold text-[#CFCED8] font-[20px] py-8 pr-8 text-justify sm:px-2 lg:w-4/5 sm:w-full sm:font-4xl'>
-					No Central Control Point: Since middlemen are eliminated from the equation, users' data will no longer be controlled by them. This reduces the risk of censorship by governments and corporations, and reduces the effectiveness of Denial-of-Service (DoS) files.
-					Increased Interconnectivity of Information: As more and more products connect to the Internet, larger datasets provide algorithms with more information for analysis. This can help to provide more accurate information that takes into account the needs of individual users.
-					Browsing more efficiently: When using the internet search engines, finding the best result could be tiresome.
-
+					No Central Control Point: Since middlemen are eliminated from the equation, users&apos; data will no longer be controlled by them. This reduces the risk of censorship by governments and corporations, and reduces the effectiveness of Denial-of-Service (DoS) files.Increased Interconnectivity of Information: As more and more products connect to the Internet, larger datasets provide algorithms with more information for analysis. This can help to provide more accurate information that takes into account the needs of individual users. Browsing more efficiently: When using the internet search engines, finding the best result could be tiresome.
 				</p>
 				<Link href='/soon' passHref>
 					<div className='font-medium text-[18px] flex sm:px-2 cursor-pointer'>

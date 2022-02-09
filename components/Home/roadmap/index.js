@@ -62,12 +62,12 @@ export default function Roadmap() {
 
 const roadmapElements = [
 	{ content: 'Setting up legal entity', isDone: true },
-	{ content: 'Market research', isDone: false },
-	{ content: 'Searching for people with inspiration and experience', isDone: false },
-	{ content: 'Core team foundation', isDone: false },
-	{ content: 'Establishing a software house strategy', isDone: false },
-	{ content: 'Design and construction of the website', isDone: false },
-	{ content: 'Creating marketing strategy', isDone: false },
-	{ content: 'Getting acquainted with the first customers', isDone: false },
-	{ content: 'Work on the first project', isDone: false }
+	{ content: 'Market research', isDone: true },
+	{ content: 'Searching for people with inspiration and experience', isDone: true },
+	{ content: 'Core team foundation', isDone: true },
+	{ content: 'Establishing a software house strategy', isDone: true },
+	{ content: 'Design and construction of the website', isDone: true },
+	{ content: 'Creating marketing strategy', isDone: true },
+	{ content: 'Getting acquainted with the first customers', isDone: true },
+	{ content: 'Work on the first project', isDone: true }
 ];

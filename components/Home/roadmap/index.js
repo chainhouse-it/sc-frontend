@@ -50,6 +50,7 @@ export default function Roadmap() {
 							src={`/icons/roadmap/${element.isDone ? 'done' : 'planned'
 								}.svg`}
 							alt=''
+							className='w-[30px] sm:w-[25px]'
 						/>
 						{element.content}
 					</div>
@@ -60,7 +61,7 @@ export default function Roadmap() {
 }
 
 const roadmapElements = [
-	{ content: 'Setting up legal entity', isDone: false },
+	{ content: 'Setting up legal entity', isDone: true },
 	{ content: 'Market research', isDone: false },
 	{ content: 'Searching for people with inspiration and experience', isDone: false },
 	{ content: 'Core team foundation', isDone: false },

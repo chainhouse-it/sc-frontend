@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 function TextBox({ header, description, ImageLink }) {
 	return (
-		<div className='w-full rounded-lg flex items-start flex-col justify-evenly border-gradient-only-green sm:w-full'>
+		<div className='w-full rounded-lg flex items-start flex-col justify-between border-gradient-only-green sm:w-full'>
 			<div className='flex justify-start items-start sm:relative sm:flex-col'>
 				<img
 					src={ImageLink}
@@ -13,7 +13,7 @@ function TextBox({ header, description, ImageLink }) {
 				sm:w-[125px] xs:w-[100px] xs:top-2'
 					alt=''
 				/>
-				<div className='p-8 '>
+				<div className='p-6 '>
 					<div className='pr-10'>
 						<SmallHeader text={header} />
 					</div>
@@ -22,7 +22,7 @@ function TextBox({ header, description, ImageLink }) {
 					</p>
 				</div>
 			</div>
-			<div className='w-full h-[1px] bg-[#1F1E26]'></div>
+			<div className='w-full h-[1px] bg-[#1F1E26] '></div>
 
 			<Link href='/soon' passHref>
 				<div className='text-white pl-10 py-8 font-medium text-[18px] flex items-center justify-around cursor-pointer z-50'>
@@ -36,7 +36,7 @@ function TextBox({ header, description, ImageLink }) {
 					/>
 				</div>
 			</Link>
-		</div>
+		</div >
 	);
 }
 
@@ -62,8 +62,10 @@ function About() {
 						ImageLink='/images/circle.png'
 					/>
 					<TextBox
-						header='List Planning by You'
-						description='The next functions that need to be performed are selected by you. Then at the meeting, the team has to answer the question: "What can it provide in the upcoming planning?" and move the expected task to the main task list.
+						header='Performance'
+						description='
+						This is the stage where the product is presented. The client gives. his last corrections and learns about the product he made. Why such technologies were used, why such components. this is how it looks like in the future, you can change the product, adjusting it to the trends, how the customer will be able to operate and take over the product after receipt. If changes are needed, we go back and keep working. We deal with it until we meet the requirements.
+						
 						'
 						ImageLink='/images/chart.png'
 					/>

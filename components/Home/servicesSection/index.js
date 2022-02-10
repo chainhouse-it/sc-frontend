@@ -27,7 +27,7 @@ function List({ category, services }) {
 function ServicesSection() {
 	return (
 		<div className='px-52 py-24 xl:px-12 sm:px-4' name='services'>
-			<div className='my-20'>
+			<div className='my-20 text-center'>
 				<Title text='Services' />
 				<LargeHeader text='What we can do' />
 			</div>
@@ -69,10 +69,10 @@ const dataServices = [
 	{
 		category: 'Blockchain set up and development',
 		services: [
-			'POC & MVP DEVELOPMENT',
-			'WEB UI/UX DEVELOPMEENT',
-			'SOLUTION TESTING',
-			'BLOCKCHAIN SUPPORT & ADVISOR SERVICES',
+			'POC & MVP development',
+			'WEB UI/UX development',
+			'Solution testing',
+			'Blockchain support & advisor services',
 			'defi yield/staking/farming. Lending/borrowing',
 		],
 	},

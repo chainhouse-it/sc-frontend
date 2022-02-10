@@ -7,8 +7,12 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`flex justify-between px-52 py-10 text-[#FFF] xl:px-12 sm:px-4`}
+			className={`flex justify-between relative px-52 py-10 text-[#FFF] xl:px-12 sm:px-4`}
 		>
+			<img
+				src='/images/logo.png'
+				className='w-[75px] absolute left-32 top-10'
+			/>
 			<p className='text-4xl font-light z-20'>
 				<span className='font-bold'>chain</span>
 				<span className='font-light'>house.it</span>
@@ -22,21 +26,21 @@ export default function Navbar() {
 				</div>
 			) : (
 				<>
-					<div className='flex flex-row items-center justify-self-center font-medium gap-8 text-lg cursor-pointer'>
+					<div className='flex flex-row items-center justify-self-center font-medium text-lg cursor-pointer'>
 						<Link href='#about' passHref>
-							<p>How we work</p>
+							<p className='px-3'>How we work</p>
 						</Link>
 						<Link href='#web3' passHref>
-							<p>What is Web3</p>
+							<p className='px-3'>What is Web3</p>
 						</Link>
 						<Link href='#ourTeam' passHref>
-							<p>Our Team</p>
+							<p className='px-3'>Our Team</p>
 						</Link>
 						<Link href='#services' passHref>
-							<p>Services</p>
+							<p className='px-3'>Services</p>
 						</Link>
 						<Link href='#development' passHref>
-							<p>Development</p>
+							<p className='px-3'>Development</p>
 						</Link>
 					</div>
 					<Link href='#contact' passHref>

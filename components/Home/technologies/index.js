@@ -35,6 +35,24 @@ function Technologies() {
 					<div className='relative w-[200px] sm:w-[150px]'>
 						<img src='/images/metamask.png' alt='' />
 					</div>
+					<div className='relative w-[100px] sm:w-[75px]'>
+						<img src='/images/express.png' alt='' />
+					</div>
+					<div className='relative w-[100px] sm:w-[75px]'>
+						<img src='/images/solidity.png' alt='' />
+					</div>
+					<div className='relative w-[100px] sm:w-[75px]'>
+						<img src='/images/java.png' alt='' />
+					</div>
+					<div className='relative w-[100px] sm:w-[75px]'>
+						<img src='/images/rust.png' alt='' />
+					</div>
+					<div className='relative w-[100px] sm:w-[75px]'>
+						<img src='/images/bsc.png' alt='' />
+					</div>
+					<div className='relative w-[100px] sm:w-[75px]'>
+						<img src='/images/ruby.png' alt='' />
+					</div>
 				</div>
 			</div>
 		</div>

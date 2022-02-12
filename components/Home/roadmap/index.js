@@ -18,21 +18,21 @@ export default function Roadmap() {
 			</div>
 
 			<div className='w-full text-[18px] flex justify-between leading-[50px] py-16 items-center text-center font-semibold lg:flex-col lg:w-full lg:gap-5 '>
-				<div className='w-1/5 border-b-2 bottom-border-gradient lg:w-3/4 sm:w-full'>
+				<div className='w-1/5 border-b-2 bottom-border-gradient lg:w-full'>
 					<p className='bg-clip-text bg-gradient-to-br from-[#02FE85] to-[#02FED1] text-transparent cursor-pointer'>
 						Q4-2021
 					</p>
 				</div>
-				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-3/4 sm:w-full'>
+				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
 					<p className='text-[#62616F] cursor-pointer'>Q1-2022</p>
 				</div>
-				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-3/4 sm:w-full'>
+				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
 					<p className='text-[#62616F] cursor-pointer'>Q2-2022</p>
 				</div>
-				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-3/4 sm:w-full'>
+				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
 					<p className='text-[#62616F] cursor-pointer'>Q3-2022</p>
 				</div>
-				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-3/4 sm:w-full'>
+				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
 					<p className='text-[#62616F] cursor-pointer'>Q4-2022</p>
 				</div>
 			</div>
@@ -52,7 +52,7 @@ export default function Roadmap() {
 								element.isDone ? 'done' : 'planned'
 							}.svg`}
 							alt=''
-							className='w-[40px] sm:w-[25px] pr-4'
+							className='w-[40px] sm:w-[30px] pr-4'
 						/>
 						{element.content}
 					</div>
@@ -63,16 +63,16 @@ export default function Roadmap() {
 }
 
 const roadmapElements = [
-	{ content: 'Design and construction of the website', isDone: true },
-	{ content: 'Getting acquainted with the first customers', isDone: true },
-	{ content: 'Work on the first project', isDone: true },
-	{ content: 'Setting up legal entity', isDone: false },
-	{ content: 'Market research', isDone: false },
+	{ content: 'Setting up legal entity', isDone: true },
+	{ content: 'Market research', isDone: true },
 	{
 		content: 'Searching for people with inspiration and experience',
-		isDone: false,
+		isDone: true,
 	},
-	{ content: 'Core team foundation', isDone: false },
-	{ content: 'Establishing a software house strategy', isDone: false },
-	{ content: 'Creating marketing strategy', isDone: false },
+	{ content: 'Core team foundation', isDone: true },
+	{ content: 'Establishing a software house strategy', isDone: true },
+	{ content: 'Creating marketing strategy', isDone: true },
+	{ content: 'Design and construction of the website', isDone: false },
+	{ content: 'Getting acquainted with the first customers', isDone: false },
+	{ content: 'Work on the first project', isDone: false },
 ];

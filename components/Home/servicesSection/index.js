@@ -57,13 +57,13 @@ const dataServices = [
 	{
 		category: 'STO (security token offering)',
 		services: [
-			'ido/ico',
-			'asset tokenisation',
+			'IDO/ICO',
+			'Asset tokenisation',
 			'Cryptocurrency Exchanges',
-			'p2p lending platform',
-			'metaverse',
-			'defi solutions',
-			'dApp',
+			'P2P lending platform',
+			'Metaverse',
+			'Defi solutions',
+			'DApp',
 		],
 	},
 	{
@@ -73,7 +73,7 @@ const dataServices = [
 			'WEB UI/UX development',
 			'Solution testing',
 			'Blockchain support & advisor services',
-			'defi yield/staking/farming. Lending/borrowing',
+			'Defi yield/staking/farming. Lending/borrowing',
 		],
 	},
 ];

@@ -9,13 +9,12 @@ export default function Navbar() {
 		<nav
 			className={`flex justify-between relative px-52 py-10 text-[#FFF] xl:px-12 sm:px-4`}
 		>
-			<img
-				src='/images/logo.png'
-				className='w-[75px] absolute left-32 top-10'
-			/>
-			<p className='text-4xl font-light z-20'>
-				<span className='font-bold'>chain</span>
-				<span className='font-light'>house.it</span>
+			<p className='text-4xl font-light z-20 flex'>
+				<img src='/images/logo.png' className='w-[75px] h-[55px]' />
+				<div>
+					<span className='font-bold'>chain</span>
+					<span className='font-light'>house.it</span>
+				</div>
 			</p>
 			{useWindowWidth() < 1280 ? (
 				<div

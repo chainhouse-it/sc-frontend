@@ -13,6 +13,7 @@ import ServicesSection from '../components/Home/servicesSection';
 import BlockchainIndustries from '../components/Home/blockchainIndustries';
 import ContactSection from '../components/Home/contactSection';
 import Footer from '../components/shared/Footer';
+import WhyUs from '../components/Home/whyUs';
 
 export default function Home() {
 	const [active, setActive] = useState(true);
@@ -47,6 +48,7 @@ export default function Home() {
 						<OurTeam />
 						<Roadmap />
 						<ServicesSection />
+						<WhyUs />
 						<BlockchainIndustries />
 						<ContactSection />
 						<Footer />

@@ -44,9 +44,9 @@ function Technologies() {
 					<div className='relative w-[100px] sm:w-[75px]'>
 						<img src='/images/java.png' alt='' />
 					</div>
-					<div className='relative w-[100px] sm:w-[75px]'>
-						<img src='/images/rust.png' alt='' />
-					</div>
+// 					<div className='relative w-[100px] sm:w-[75px]'>
+// 						<img src='/images/rust.png' alt='' />
+// 					</div>
 					<div className='relative w-[100px] sm:w-[75px]'>
 						<img src='/images/bsc.png' alt='' />
 					</div>

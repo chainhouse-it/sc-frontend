@@ -45,6 +45,9 @@ function Technologies() {
 						<img src='/images/java.png' alt='' />
 					</div>
 					<div className='relative w-[100px] sm:w-[75px]'>
+						<img src='/images/vyper-logo-transparent.png' alt='' />
+					</div>
+					<div className='relative w-[100px] sm:w-[75px]'>
 						<img src='/images/bsc.png' alt='' />
 					</div>
 					<div className='relative w-[100px] sm:w-[75px]'>
@@ -57,3 +60,4 @@ function Technologies() {
 }
 
 export default Technologies;
+

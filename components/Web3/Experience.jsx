@@ -1,5 +1,4 @@
 import React from 'react';
-import LargeHeader from '../shared/LargeHeader';
 import SmallHeader from '../shared/SmallHeader';
 import Title from '../shared/Title';
 

@@ -1,7 +1,5 @@
 import React from 'react';
 import BreadCrumb from '../shared/Box/BreadCrumb';
-import LargeHeader from '../shared/LargeHeader';
-import Title from '../shared/Title';
 
 const Hero = () => {
 	return (

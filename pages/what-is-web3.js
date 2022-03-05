@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Head from 'next/head';
 import HeroSection from '../components/Web3/HeroSection';
 import Navbar from '../components/shared/Navbar';

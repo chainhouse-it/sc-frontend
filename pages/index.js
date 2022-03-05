@@ -14,6 +14,7 @@ import BlockchainIndustries from '../components/Home/blockchainIndustries';
 import ContactSection from '../components/Home/contactSection';
 import Footer from '../components/shared/Footer';
 import WhyUs from '../components/Home/whyUs';
+import Experience from '../components/Home/experience';
 
 export default function Home() {
 	const [active, setActive] = useState(true);
@@ -44,6 +45,7 @@ export default function Home() {
 						<Hero />
 						<Technologies />
 						<About />
+						<Experience />
 						<AboutWeb3 />
 						<OurTeam />
 						<Roadmap />

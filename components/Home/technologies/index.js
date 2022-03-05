@@ -7,7 +7,7 @@ function Technologies() {
 			<img
 				src='/images/background.png'
 				alt=''
-				className='absolute left-32
+				className='absolute left-36 
 			z-10 object-cover scale-[1.5] scale-x-[2.1] opacity-50 xl:left-0
 			sm:scale-[3]'
 			/>
@@ -60,4 +60,3 @@ function Technologies() {
 }
 
 export default Technologies;
-

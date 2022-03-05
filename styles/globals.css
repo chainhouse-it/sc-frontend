@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;0,700;1,200&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,6 +15,7 @@ body {
 	padding: 0;
 	margin: 0;
 	background: #01000a;
+	color: white;
 }
 .typeAnimation p {
 	color: white;
@@ -84,6 +85,24 @@ body {
 
 .borderAnimationThree {
 	animation: driveAnimationOne 0.5s ease-in-out 1s forwards;
+}
+
+/*Shirshak kandel style  */
+
+.paragraph {
+	@apply text-[#CFCED8] font-source text-[18px] leading-[160%] tracking-[-0.03em];
+}
+
+.section-wrapper {
+	@apply px-52 xl:px-12 sm:px-4 text-white max-w-[2000px] mx-auto;
+}
+
+.mt-section {
+	@apply mt-[140px] md:mt-24;
+}
+
+.primary-heading {
+	@apply text-white font-poppins font-[700] text-[66px] lg:text-6xl md:text-4xl sm:text-3xl leading-[130%] tracking-[-0.03em];
 }
 
 @keyframes driveAnimationOne {

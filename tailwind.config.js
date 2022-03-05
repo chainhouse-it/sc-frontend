@@ -7,6 +7,7 @@ module.exports = {
 		fontFamily: {
 			poppins: ['Poppins', 'Arial'],
 			roboto: ['Roboto', 'Arial'],
+			source: ['Source Sans Pro', 'Arial'],
 		},
 		screens: {
 			'3xl': { min: '1980px' },
@@ -34,8 +35,8 @@ module.exports = {
 				'750px': '750px',
 			},
 			gridTemplateRows: {
-				'7': 'repeat(7, minmax(0, 1fr))',
-			}
+				7: 'repeat(7, minmax(0, 1fr))',
+			},
 		},
 	},
 	plugins: [require('tailwindcss-textshadow')],

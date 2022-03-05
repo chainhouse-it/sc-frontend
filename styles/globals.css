@@ -38,6 +38,23 @@ body {
 	border: 1px solid transparent;
 }
 
+.border-gradient-white {
+	background: linear-gradient(#08081d, black) padding-box,
+		linear-gradient(
+				0deg,
+				#161d25,
+				#161d25,
+				#161d25,
+				#161d25,
+				#fff,
+				#161d25,
+				black
+			)
+			border-box;
+	border-radius: 25px;
+	border: 1px solid transparent;
+}
+
 .border-gradient-greenSmall {
 	background: linear-gradient(#08081d, black) padding-box,
 		linear-gradient(
@@ -99,6 +116,10 @@ body {
 
 .mt-section {
 	@apply mt-[140px] md:mt-24;
+}
+
+.my-element {
+	@apply my-[20px] sm:my-4;
 }
 
 .primary-heading {

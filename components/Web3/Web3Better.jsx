@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Title from '../shared/Title';
-import styled from 'styled-components';
 
 const Web3Better = () => {
 	return (

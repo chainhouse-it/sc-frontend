@@ -3,8 +3,6 @@ import React from 'react';
 import Title from '../shared/Title';
 import styled from 'styled-components';
 
-const BackGround = styled.div``;
-
 const Web3Better = () => {
 	return (
 		<section className=' mt-section text-white'>

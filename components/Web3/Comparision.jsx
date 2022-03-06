@@ -1,5 +1,4 @@
 import React from 'react';
-import Title from '../shared/Title';
 import styled from 'styled-components';
 import List from '../shared/List';
 import Heading from '../shared/Heading';

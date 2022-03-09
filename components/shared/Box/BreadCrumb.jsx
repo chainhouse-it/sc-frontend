@@ -2,7 +2,7 @@ import React from 'react';
 
 const BreadCrumb = ({ title }) => {
 	return (
-		<nav classNameName='flex items-center' aria-label='Breadcrumb'>
+		<nav className='flex items-center' aria-label='Breadcrumb'>
 			<ol className='flex items-center '>
 				<li className='inline-flex items-center mr-[13px]'>
 					<a
@@ -18,7 +18,7 @@ const BreadCrumb = ({ title }) => {
 						<img
 							src='images/web3/rightarrow.png'
 							alt=''
-							classNameName='opacity-80 mt-[1px]'
+							className='opacity-80 mt-[1px]'
 						/>
 						<span className='ml-2.5 text-xl font-medium text-[background: #CFCED8] md:ml-2 dark:text-gray-500'>
 							{title}

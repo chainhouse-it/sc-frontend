@@ -15,13 +15,17 @@ const WhatIsWeb3 = () => {
 	return (
 		<div className='overflow-hidden'>
 			<Head>
-				<title>What is web3-chainhouse.it</title>
+				<title>What is web3 ?-chainhouse.it</title>
 				<meta name='description' content='What is Web 3 details' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
 				<Navbar />
-				<HeroSection />
+				<HeroSection
+					breadcrumbText='What is web 3.0?'
+					title='What is web3?'
+					text='Web3 in context refers to decentralized applications that run on a blockchain.'
+				/>
 				<Experience />
 				<NetworkDetail />
 				<Web3Better />

@@ -1,20 +1,19 @@
 import React from 'react';
 import BreadCrumb from '../shared/Box/BreadCrumb';
 
-const Hero = () => {
+const Hero = ({ breadcrumbText, title, text }) => {
 	return (
 		<div className='  text-white  mt-[100px] md:mt-[70px] min-h-[60vh] '>
 			<div className='flex lg:flex-col flex-row gap-[84px] md:gap-4  section-wrapper'>
 				{/* Left section */}
 				<div className='flex flex-col gap-4 flex-[0.5]'>
-					<BreadCrumb title='What is web 3.0?' />
+					<BreadCrumb title={breadcrumbText} />
 
 					<h1 className='font-poppins text-[50px] leading-[130%] md:text-3xl letter-spacing-[-0.03em] text-white font-bold'>
-						What is web3?
+						{title}
 					</h1>
 					<p className='font-source text-[25px] leading-[40px] tracking-[-0.03em] text-[#CFCED8] '>
-						Web3 in context refers to decentralized applications
-						that run on a blockchain.
+						{text}
 					</p>
 				</div>
 				{/* Right section */}

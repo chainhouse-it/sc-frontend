@@ -55,6 +55,14 @@ body {
 	border: 1px solid transparent;
 }
 
+.gradient-border {
+	box-sizing: content-box;
+	border-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(to right, #02fe9e, #08081d);
+	border-image-slice: 1;
+}
+
 .border-gradient-greenSmall {
 	background: linear-gradient(#08081d, black) padding-box,
 		linear-gradient(
@@ -70,6 +78,10 @@ body {
 			border-box;
 	border-radius: 10px;
 	border: 1px solid transparent;
+}
+
+.input {
+	@apply w-full h-[50px] bg-[#0A0914]  p-2  outline-[0] mb-2 text-[14px] font-poppins text-white rounded-[10px] border-gradient-green;
 }
 
 .border-gradient-only-green {
@@ -118,6 +130,9 @@ body {
 	@apply mt-[140px] md:mt-24;
 }
 
+.mb-section {
+	@apply mb-[140px] md:mb-24;
+}
 .my-element {
 	@apply my-[20px] sm:my-4;
 }

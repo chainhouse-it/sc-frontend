@@ -32,7 +32,7 @@ export default function Navbar() {
 						<Link href='#about' passHref>
 							<p className='px-3'>How we work</p>
 						</Link>
-						<Link href='what-is-web3' passHref>
+						<Link href='/what-is-web3' passHref>
 							<p className='px-3'>What is Web3</p>
 						</Link>
 						<Link href='#ourTeam' passHref>
@@ -45,7 +45,7 @@ export default function Navbar() {
 							<p className='px-3'>Development</p>
 						</Link>
 					</div>
-					<Link href='#contact' passHref>
+					<Link href='/estimate-the-project' passHref>
 						<button className='rounded-[999px] px-10 py-3 items-end backdrop-blur-[200px] bg-[#0E0D16] border'>
 							Estimate the project
 						</button>

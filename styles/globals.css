@@ -144,6 +144,9 @@ body {
 .primary-heading {
 	@apply text-white font-poppins font-[700] text-[66px] lg:text-6xl md:text-4xl sm:text-3xl leading-[130%] tracking-[-0.03em];
 }
+.green-heading {
+	@apply text-xl bg-clip-text text-transparent bg-gradient-to-br from-[#02FE85] to-[#02FED1] font-bold font-[Poppins] sm:text-sm;
+}
 
 .input {
 	@apply w-full h-[50px] bg-[#0A0914]  p-5  outline-[0]  text-[14px] font-poppins text-white border-gradient-input  mb-[20px] shadow-lg;

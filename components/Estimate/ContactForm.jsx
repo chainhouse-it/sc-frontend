@@ -23,6 +23,7 @@ const ContactForm = () => {
 
 		if (inputref.current.value) {
 			setFileText(
+				//eslint-disable-next-line
 				inputref.current.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1]
 			);
 		} else {

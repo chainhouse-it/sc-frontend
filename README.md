@@ -32,3 +32,59 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+# `Custome file input component`
+
+![Custom file input](public/images/screenshot/custominput.png)
+
+```jsx
+          //components\Estimate\ContactForm.jsx
+
+          const ContactForm = ()=> {
+               const inputref = useRef();
+               const [fileText, setFileText] = useState('No file chosen');
+               
+               const handleFileChange = (e) => {
+                    setQuery((prevState) => ({
+                         ...prevState,
+                         file: e.target.files[0],
+                    }));
+
+                    if (inputref.current.value) {
+                         setFileText(
+                              inputref.current.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1]
+                         );
+                    } else {
+                         setFileText('No file chosen');
+                    }
+               };
+               return (
+     
+               	<div className='input flex items-center'>
+					<input
+						type='file'
+						onChange={handleFileChange}
+						className='hidden'
+						ref={inputref}
+					/>
+
+					<button
+						className='font-poppins font-[400] text-[12px] leading-[21px] bg-[#151421] py-1.5 px-3 rounded-lg'
+						onClick={() => inputref.current.click()}
+						type='button'
+					>
+						Choose File
+					</button>
+					{/* {console.log(inputref)} */}
+					<span className='font-poppins text-[14px] leading-[21px] opacity-70 ml-6'>
+						{fileText}
+					</span>
+				</div>
+
+)
+
+          }
+			
+
+```

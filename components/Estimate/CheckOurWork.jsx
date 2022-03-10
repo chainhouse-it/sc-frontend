@@ -31,9 +31,14 @@ const CheckOurWork = () => {
 					alt='Bottom line'
 					className='absolute bottom-[-140px] left-0 lg:hidden w-[320px]'
 				/>
+				<img
+					src='/images/estimateproject/top.svg'
+					alt='Bottom line'
+					className='absolute top-[-140px] right-0 lg:hidden w-[320px]'
+				/>
 			</LeftFlexCol>
 
-			<RightFlexCol className='flex-1 flex flex-col'>
+			<RightFlexCol className='flex-1 flex flex-col z-50'>
 				<ContactForm />
 			</RightFlexCol>
 		</FlexRow>

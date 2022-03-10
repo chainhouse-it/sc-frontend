@@ -80,10 +80,6 @@ body {
 	border: 1px solid transparent;
 }
 
-.input {
-	@apply w-full h-[50px] bg-[#0A0914]  p-2  outline-[0] mb-2 text-[14px] font-poppins text-white rounded-[10px] border-gradient-green;
-}
-
 .border-gradient-only-green {
 	background: linear-gradient(#0c0b15, #0c0b15) padding-box,
 		linear-gradient(135deg, #02fe9e, #161d25, #161d25) border-box;
@@ -123,11 +119,19 @@ body {
 }
 
 .section-wrapper {
-	@apply px-52 xl:px-12 sm:px-4 text-white max-w-[2000px] mx-auto;
+	@apply px-48 xl:px-12 sm:px-4 text-white max-w-[2000px] mx-auto;
 }
 
 .mt-section {
 	@apply mt-[140px] md:mt-24;
+}
+
+.border-gradient-input {
+	background: linear-gradient(#08081d, #08081d) padding-box,
+		linear-gradient(180deg, #89c263 10%, black) border-box;
+
+	border-radius: 10px;
+	border: 0.5px solid transparent;
 }
 
 .mb-section {
@@ -139,6 +143,14 @@ body {
 
 .primary-heading {
 	@apply text-white font-poppins font-[700] text-[66px] lg:text-6xl md:text-4xl sm:text-3xl leading-[130%] tracking-[-0.03em];
+}
+
+.input {
+	@apply w-full h-[50px] bg-[#0A0914]  p-5  outline-[0]  text-[14px] font-poppins text-white border-gradient-input  mb-[20px] shadow-lg;
+}
+
+.textarea {
+	@apply w-full  bg-[#0A0914]  p-5  outline-[0]  text-[14px] font-poppins text-white rounded-[10px] border-gradient-input  mb-[20px] shadow-lg;
 }
 
 @keyframes driveAnimationOne {

@@ -126,9 +126,24 @@ body {
 	@apply mt-[140px] md:mt-24;
 }
 
+.mt-element {
+	@apply mt-[15px];
+}
 .border-gradient-input {
 	background: linear-gradient(#08081d, #08081d) padding-box,
 		linear-gradient(180deg, #89c263 10%, black) border-box;
+
+	border-radius: 10px;
+	border: 0.5px solid transparent;
+}
+
+.max-width {
+	@apply max-w-[2000px] mx-auto;
+}
+
+.border-gradient-box {
+	background: linear-gradient(#08081d, #08081d) padding-box,
+		linear-gradient(180deg, #89c263 90%, white) border-box;
 
 	border-radius: 10px;
 	border: 0.5px solid transparent;

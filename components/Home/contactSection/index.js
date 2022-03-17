@@ -4,7 +4,7 @@ import Title from '../../shared/Title';
 function ContactSection() {
 	return (
 		<div className='relative' name='contact'>
-			<div className='px-52 py-32 overflow-hidden xl:px-12 xl:py-14 sm:px-4'>
+			<div className='px-52 py-32 overflow-hidden xl:px-12 xl:py-14 sm:px-4 '>
 				<img
 					src='/images/contact/finalBg.png'
 					alt=''

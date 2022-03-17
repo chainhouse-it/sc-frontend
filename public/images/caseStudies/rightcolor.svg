@@ -1,0 +1,24 @@
+<svg width="511" height="626" viewBox="0 0 511 626" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_1_1825)">
+<circle r="392.19" transform="matrix(0.725796 0.68791 0.68791 -0.725796 368.378 216.591)" fill="#02FE85"/>
+<circle r="148.73" transform="matrix(0.725796 0.68791 0.68791 -0.725796 422.768 482.519)" fill="#02DCB2"/>
+<circle r="95.645" transform="matrix(0.725796 0.68791 0.68791 -0.725796 394.223 214.605)" fill="#02DCB2"/>
+<circle r="95.645" transform="matrix(0.725796 0.68791 0.68791 -0.725796 443.075 370.618)" fill="#05EE76"/>
+<circle r="95.645" transform="matrix(0.725796 0.68791 0.68791 -0.725796 564.985 353.755)" fill="#05EE76"/>
+<circle r="95.645" transform="matrix(0.725796 0.68791 0.68791 -0.725796 520.88 229.984)" fill="black"/>
+<circle r="95.645" transform="matrix(0.725796 0.68791 0.68791 -0.725796 564.97 570.641)" fill="black"/>
+<circle r="95.645" transform="matrix(0.725796 0.68791 0.68791 -0.725796 321.031 358.351)" fill="black"/>
+<circle r="101.594" transform="matrix(0.725796 0.68791 0.68791 -0.725796 226.637 241.737)" fill="black"/>
+<circle r="101.594" transform="matrix(0.725796 0.68791 0.68791 -0.725796 546.009 684.449)" fill="black"/>
+<circle r="136.374" transform="matrix(0.725796 0.68791 0.68791 -0.725796 459.326 34.8172)" fill="black"/>
+<circle r="136.374" transform="matrix(0.725796 0.68791 0.68791 -0.725796 45.7599 135.876)" fill="black"/>
+<circle r="142.781" transform="matrix(0.725796 0.68791 0.68791 -0.725796 60.2294 168.506)" fill="black"/>
+</g>
+<defs>
+<filter id="filter0_f_1_1825" x="-290.615" y="-375.6" width="1478.79" height="1361.64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_1_1825"/>
+</filter>
+</defs>
+</svg>

@@ -24,7 +24,7 @@ function TextBox({ header, description, ImageLink }) {
 			</div>
 			<div className='w-full h-[1px] bg-[#1F1E26] '></div>
 
-			<Link href='/soon' passHref>
+			<Link href='/how-we-work' passHref>
 				<div className='text-white pl-10 py-8 font-medium text-[18px] flex items-center justify-around cursor-pointer z-50'>
 					<p className='hover:scale-[1.05] hover:pr-2 transition-all'>
 						Learn More
@@ -36,7 +36,7 @@ function TextBox({ header, description, ImageLink }) {
 					/>
 				</div>
 			</Link>
-		</div >
+		</div>
 	);
 }
 
@@ -52,8 +52,13 @@ function About() {
 					<LargeHeader text='How we work' />
 				</div>
 				<p className='text-[#CFCED8] text-lg pb-20 w-1/2 xl:w-full'>
-					We start with a meeting to get to know you and your idea. That&apos;s when a lot of ideas come in - both ways. You can come to us with ready technical documentation and have the already described and designed system created. We can then start work on software development the next day after agreeing the terms of cooperation. The system you outsource is created quickly and efficiently
-
+					We start with a meeting to get to know you and your idea.
+					That&apos;s when a lot of ideas come in - both ways. You can
+					come to us with ready technical documentation and have the
+					already described and designed system created. We can then
+					start work on software development the next day after
+					agreeing the terms of cooperation. The system you outsource
+					is created quickly and efficiently
 				</p>
 				<div className='grid grid-cols-2 gap-14 xl:grid-cols-1'>
 					<TextBox

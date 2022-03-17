@@ -10,7 +10,7 @@ export default function Navbar() {
 
 	return (
 		<nav
-			className={`flex justify-between relative px-52 py-10 text-[#FFF] xl:px-12 sm:px-4`}
+			className={`flex justify-between relative section-wrapper py-10 text-[#FFF] `}
 		>
 			<p
 				className='text-4xl font-light z-20 flex cursor-pointer'
@@ -32,7 +32,7 @@ export default function Navbar() {
 						<Link href='#about' passHref>
 							<p className='px-3'>How we work</p>
 						</Link>
-						<Link href='/what-is-web3' passHref>
+						<Link href='#web3' passHref>
 							<p className='px-3'>What is Web3</p>
 						</Link>
 						<Link href='#ourTeam' passHref>

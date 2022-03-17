@@ -1,7 +1,7 @@
 import Link from 'next/link';
 export default function Footer() {
 	return (
-		<footer className='px-52 py-24 flex justify-between text-white relative xl:px-12 xl:py-14 sm:px-4'>
+		<footer className='flex justify-between text-white relative section-wrapper mt-section'>
 			<div className='w-1/4 lg:w-full'>
 				<p className='text-4xl font-bold sm:text-2xl'>chainhouse.io</p>
 				<p className='text-desc font-semibold py-4'>

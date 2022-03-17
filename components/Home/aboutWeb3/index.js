@@ -41,12 +41,25 @@ export default function AboutWeb3() {
 				/>
 				<Title text='Web 3.0' />
 				<div className='z-20 pt-4 font-bold text-[46px] sm:text-4xl'>
-					<p className='z-20'>What makes Web 3.0 better than its predecessors?</p>
+					<p className='z-20'>
+						What makes Web 3.0 better than its predecessors?
+					</p>
 				</div>
 				<p className='w-3/4 font-semibold text-[#CFCED8] font-[20px] py-8 pr-8 text-justify sm:px-2 lg:w-4/5 sm:w-full sm:font-4xl'>
-					No Central Control Point: Since middlemen are eliminated from the equation, users&apos; data will no longer be controlled by them. This reduces the risk of censorship by governments and corporations, and reduces the effectiveness of Denial-of-Service (DoS) files.Increased Interconnectivity of Information: As more and more products connect to the Internet, larger datasets provide algorithms with more information for analysis. This can help to provide more accurate information that takes into account the needs of individual users. Browsing more efficiently: When using the internet search engines, finding the best result could be tiresome.
+					No Central Control Point: Since middlemen are eliminated
+					from the equation, users&apos; data will no longer be
+					controlled by them. This reduces the risk of censorship by
+					governments and corporations, and reduces the effectiveness
+					of Denial-of-Service (DoS) files.Increased Interconnectivity
+					of Information: As more and more products connect to the
+					Internet, larger datasets provide algorithms with more
+					information for analysis. This can help to provide more
+					accurate information that takes into account the needs of
+					individual users. Browsing more efficiently: When using the
+					internet search engines, finding the best result could be
+					tiresome.
 				</p>
-				<Link href='/soon' passHref>
+				<Link href='/what-is-web3' passHref>
 					<div className='font-medium text-[18px] flex sm:px-2 cursor-pointer'>
 						<p className='hover:scale-[1.05] hover:pr-2 transition-all'>
 							Learn More

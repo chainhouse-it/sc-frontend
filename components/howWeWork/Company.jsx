@@ -1,6 +1,6 @@
 import React from 'react';
 import Heading from '../shared/Heading';
-import Title from '../shared/Title';
+
 import styled from 'styled-components';
 const FlexImageContainer = styled.div``;
 const Company = () => {

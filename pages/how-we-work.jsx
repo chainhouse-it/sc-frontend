@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/shared/Navbar';
-import Head from 'next/Head';
+import Head from 'next/head';
 import HeroSection from '../components/Web3/HeroSection';
 import Footer from '../components/shared/Footer';
 import CardContainer from '../components/howWeWork/CardContainer';

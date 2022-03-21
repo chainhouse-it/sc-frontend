@@ -29,23 +29,23 @@ export default function PageNavbar() {
 			) : (
 				<>
 					<div className='flex flex-row items-center justify-self-center font-medium text-lg cursor-pointer'>
-						<Link href='/#about'>
+						<Link href='/#about' passHref>
 							<p className='px-3'>How we work</p>
 						</Link>
-						<Link href='/#web3'>
+						<Link href='/#web3' passHref>
 							<p className='px-3'>What is Web3</p>
 						</Link>
-						<Link href='/#ourTeam'>
+						<Link href='/#ourTeam' passHref>
 							<p className='px-3'>Our Team</p>
 						</Link>
-						<Link href='/#services'>
+						<Link href='/#services' passHref>
 							<p className='px-3'>Services</p>
 						</Link>
-						<Link href='/#development'>
+						<Link href='/#development' passHref>
 							<p className='px-3'>Development</p>
 						</Link>
 					</div>
-					<Link href='/estimate-the-project'>
+					<Link href='/estimate-the-project' passHref>
 						<button className='rounded-[999px] px-10 py-3 items-end backdrop-blur-[200px] bg-[#0E0D16] border'>
 							Estimate the project
 						</button>

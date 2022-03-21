@@ -45,6 +45,7 @@ function About() {
 		<div
 			className='px-52 py-32 xl:px-12 sm:px-4 flex justify-start items-start font-[poppins]'
 			name='about'
+			id='about'
 		>
 			<div className='w-full '>
 				<Title text='OVERVIEW' />

@@ -19,6 +19,7 @@ export default function AboutWeb3() {
 		<div
 			className='w-screen px-52 xl:px-20 sm:px-10 xs:px-6 relative grid grid-cols-3 gap-4 justify-items-center py-24 font-[poppins]'
 			name='web3'
+			id='web3'
 		>
 			<div className='flex flex-col items-center col-span-3'>
 				<Title text='TECHNOLOGY' />

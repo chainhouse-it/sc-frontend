@@ -15,16 +15,20 @@ import ContactSection from '../components/Home/contactSection';
 import Footer from '../components/shared/Footer';
 import WhyUs from '../components/Home/whyUs';
 import Experience from '../components/Home/experience';
+import { useRouter } from 'next/router';
 
 export default function Home() {
 	const [active, setActive] = useState(true);
+	const router = useRouter();
 
 	useEffect(() => {
-		const loadingTimer = setTimeout(() => {
-			setActive(false);
-		}, 1500);
-
-		return () => clearTimeout(loadingTimer);
+		if (router.asPath === '/') {
+			const loadingTimer = setTimeout(() => {
+				setActive(false);
+			}, 1500);
+			return () => clearTimeout(loadingTimer);
+		}
+		setActive(false);
 	}, []);
 	return (
 		<div className='overflow-x-hidden'>
@@ -37,7 +41,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
-				{active ? (
+				{router.asPath == '/' && active ? (
 					<LoadingScreen />
 				) : (
 					<>

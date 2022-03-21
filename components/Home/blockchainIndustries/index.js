@@ -3,7 +3,10 @@ import Title from '../../shared/Title';
 
 function Card({ name }) {
 	return (
-		<div className='border-gradient-greenSmall flex gap-8 py-6 pl-8 pr-2 items-center'>
+		<div
+			className='border-gradient-greenSmall flex gap-8 py-6 pl-8 pr-2 items-center'
+			id='development'
+		>
 			<img src={`/icons/industriesIcon/${name}.png`} alt='' />
 			<p className='text-white font-bold text-xl'>{name}</p>
 		</div>

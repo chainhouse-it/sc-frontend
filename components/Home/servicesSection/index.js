@@ -2,7 +2,7 @@ import LargeHeader from '../../shared/LargeHeader';
 import Title from '../../shared/Title';
 function List({ category, services }) {
 	return (
-		<div className='ml-10'>
+		<div className='ml-10' id='services'>
 			<div className='flex items-center gap-4 relative w-[300px]'>
 				<img
 					src='/icons/servicesIcon.png'

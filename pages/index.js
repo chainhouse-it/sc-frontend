@@ -29,7 +29,7 @@ export default function Home() {
 			return () => clearTimeout(loadingTimer);
 		}
 		setActive(false);
-	}, []);
+	}, [router.asPath]);
 	return (
 		<div className='overflow-x-hidden'>
 			<Head>

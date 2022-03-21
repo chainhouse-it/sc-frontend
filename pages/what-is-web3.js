@@ -10,7 +10,6 @@ import Web3Better from '../components/Web3/Web3Better';
 import Advantage from '../components/Web3/Advantage';
 import Comparision from '../components/Web3/Comparision';
 import Table from '../components/Web3/Table';
-import PageNavbar from '../components/shared/PageNavbar';
 
 const WhatIsWeb3 = () => {
 	return (
@@ -21,7 +20,7 @@ const WhatIsWeb3 = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
-				<PageNavbar />
+				<Navbar />
 				<HeroSection
 					breadcrumbText='What is web 3.0?'
 					title='What is web3?'

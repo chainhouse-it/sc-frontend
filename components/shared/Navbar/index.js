@@ -29,19 +29,19 @@ export default function Navbar() {
 			) : (
 				<>
 					<div className='flex flex-row items-center justify-self-center font-medium text-lg cursor-pointer'>
-						<Link href='#about' passHref>
+						<Link href='/#about' passHref>
 							<p className='px-3'>How we work</p>
 						</Link>
-						<Link href='#web3' passHref>
+						<Link href='/#web3' passHref>
 							<p className='px-3'>What is Web3</p>
 						</Link>
-						<Link href='#ourTeam' passHref>
+						<Link href='/#ourTeam' passHref>
 							<p className='px-3'>Our Team</p>
 						</Link>
-						<Link href='#services' passHref>
+						<Link href='/#services' passHref>
 							<p className='px-3'>Services</p>
 						</Link>
-						<Link href='#development' passHref>
+						<Link href='/#development' passHref>
 							<p className='px-3'>Development</p>
 						</Link>
 					</div>

@@ -17,7 +17,7 @@ const ImageGroup = () => {
 							className='w-[250px] h-auto'
 						/>
 						<img
-							src='images\caseStudies\imggroup\smallnewClient.png'
+							src='images\caseStudies\imggroup\smallnewclient.png'
 							alt='Small chart'
 							className='w-[250px] h-auto'
 						/>

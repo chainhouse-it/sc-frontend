@@ -29,7 +29,11 @@ export default function Navbar() {
 			) : (
 				<>
 					<div className='flex flex-row items-center justify-self-center font-medium text-lg cursor-pointer'>
-						<Link href='/#about' passHref>
+						<Link
+							href='/#about'
+							passHref
+							className='cursor-pointer'
+						>
 							<p className='px-3'>How we work</p>
 						</Link>
 						<Link href='/#web3' passHref>
@@ -81,7 +85,7 @@ export default function Navbar() {
 								className='font-medium py-6 cursor-pointer'
 								onClick={cycleOpen}
 							>
-								<Link href='#about' passHref>
+								<Link href='/#about' passHref>
 									How we work
 								</Link>
 							</p>
@@ -89,7 +93,7 @@ export default function Navbar() {
 								className='font-medium py-6 cursor-pointer'
 								onClick={cycleOpen}
 							>
-								<Link href='#web3' passHref>
+								<Link href='/#web3' passHref>
 									What is web3
 								</Link>
 							</p>
@@ -97,7 +101,7 @@ export default function Navbar() {
 								className='font-medium py-6 cursor-pointer'
 								onClick={cycleOpen}
 							>
-								<Link href='#ourTeam' passHref>
+								<Link href='/#ourTeam' passHref>
 									Our Team
 								</Link>
 							</p>
@@ -105,7 +109,7 @@ export default function Navbar() {
 								className='font-medium py-6 cursor-pointer'
 								onClick={cycleOpen}
 							>
-								<Link href='#services' passHref>
+								<Link href='/#services' passHref>
 									Services
 								</Link>
 							</p>
@@ -113,10 +117,15 @@ export default function Navbar() {
 								className='font-medium py-6 cursor-pointer'
 								onClick={cycleOpen}
 							>
-								<Link href='#development' passHref>
+								<Link href='/#development' passHref>
 									Development
 								</Link>
 							</p>
+							<Link href='/estimate-the-project' passHref>
+								<button className='rounded-[999px] px-10 py-3 items-end backdrop-blur-[200px] bg-[#0E0D16] border'>
+									Estimate the project
+								</button>
+							</Link>
 						</motion.div>
 					</motion.div>
 				)}

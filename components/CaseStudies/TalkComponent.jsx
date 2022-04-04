@@ -59,7 +59,7 @@ const TalkComponent = () => {
 
 					<Details
 						image='\images\caseStudies\talk\mail.svg'
-						text='chainhouse.it@gmail.com'
+						text='contact@chainhouse.it'
 					/>
 				</div>
 

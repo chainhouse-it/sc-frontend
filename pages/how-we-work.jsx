@@ -19,7 +19,7 @@ const HowWeWork = () => {
 				<HeroSection
 					breadcrumbText='How we work'
 					title='How we work'
-					text='Web2 is an internet dominated by companies that provide services in exchange for our personal data.'
+					text='Web3 is an internet dominated by companies that provide services in exchange for our personal data.'
 				/>
 				<CardContainer />
 				<Process />

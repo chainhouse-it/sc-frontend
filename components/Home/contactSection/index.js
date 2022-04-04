@@ -17,7 +17,7 @@ function ContactSection() {
 				/>
 				<div className='flex flex-col w-1/2 xl:w-full'>
 					<Title text='Contact' />
-					<LargeHeader text='Contact us here!' />
+					<LargeHeader text='Contact us here! contact@chainhouse.it' />
 					<p className='text-desc font-semibold text-lg py-6 z-10'>
 						Explain why someone should contact them, and describe
 						how they can help solve their visitors problems.

@@ -3,7 +3,7 @@ export default function Footer() {
 	return (
 		<footer className='flex justify-between text-white relative section-wrapper mt-section'>
 			<div className='w-1/4 lg:w-full'>
-				<p className='text-4xl font-bold sm:text-2xl'>chainhouse.io</p>
+				<p className='text-4xl font-bold sm:text-2xl'>chainhouse.it</p>
 				<p className='text-desc font-semibold py-4'>
 					Learn about our competences in designing blockchain
 					solutions for your needs - both
@@ -36,6 +36,13 @@ export default function Footer() {
 						rel='noreferrer'
 					>
 						<img src='/icons/footer/linkedin.png' alt='' />
+					</a>
+		<a
+						href='https://www.facebook.com/Chainhouseit-103783152230842'
+						target='_blank'
+						rel='noreferrer'
+					>
+						<img src='/icons/footer/github.png' alt='' />
 					</a>
 					{/* <a
 						href='https://facebook.com'

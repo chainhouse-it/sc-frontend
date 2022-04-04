@@ -38,7 +38,7 @@ const TalkComponent = () => {
 
 					<Details
 						image='\images\caseStudies\talk\location.svg'
-						text='4517 Washington Ave. Manchester, Kentucky 39495'
+						text='Szczecińska 82 73-110 Stargard Poland'
 					/>
 					<div className='flex gap-[30px] items-center mb-[40px]'>
 						<div className='relative flex items-center w-[45px] h-[45px]'>
@@ -53,7 +53,7 @@ const TalkComponent = () => {
 							/>
 						</div>
 						<p className='paragraph font-poppins text-[20px] font-bold'>
-							(907) 555-0101
+							(+48) 666-238-367
 						</p>
 					</div>
 

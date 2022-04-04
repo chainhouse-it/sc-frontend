@@ -38,7 +38,7 @@ const TalkComponent = () => {
 
 					<Details
 						image='\images\caseStudies\talk\location.svg'
-						text='Szczecińska 82 73-110 Stargard Poland'
+						text='Szczecińska 82 73-110 Stargard Poland Chainhouse Sp. z o.o. Nip PL8542437967'
 					/>
 					<div className='flex gap-[30px] items-center mb-[40px]'>
 						<div className='relative flex items-center w-[45px] h-[45px]'>

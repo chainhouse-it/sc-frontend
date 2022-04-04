@@ -22,7 +22,7 @@ const EstiamteProject = () => {
 				<HeroSection
 					breadcrumbText='Estimate the project'
 					title='Estimate the project'
-					text='Web2 is an internet dominated by companies that provide services in exchange for our personal data. '
+					text='Web3 is an internet dominated by companies that provide services in exchange for our personal data. '
 				/>
 				<CardContainer />
 				<CheckOurWork />

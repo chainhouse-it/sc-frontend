@@ -90,35 +90,35 @@ const team = [
 		link: 'https://www.linkedin.com/in/amelia-legan-700702192/',
 	},
 	{
-		name: 'Konrad Kowalik',
+		name: 'Senior dev',
 		role: 'Web3 dev',
-		photo: '/images/members/zara.jpg',
-		link: 'https://www.linkedin.com/in/konrad-kowalik-16334422b/',
+		photo: '/images/members/z.jpg',
+		link: 'https://www.linkedin.com/in//',
 	},
 	{
-		name: 'Piotr Galka',
+		name: 'Dev 2',
 		role: 'Web3 dev',
-		photo: '/images/members/piotr-galka.jpg',
-		link: 'https://www.linkedin.com/in/piotr-ga%C5%82ka-47224a230/',
+		photo: '/images/members/.jpg',
+		link: 'https://www.linkedin.com/in//',
 	},
 	{
-		name: 'Jan Piotrzkowski',
+		name: 'Dev 3',
 		role: 'Fullstack dev',
-		photo: '/images/members/jan-piotrzkowski.jpg',
-		link: 'https://www.linkedin.com/in/jan-piotrzkowski-3a8789158/',
+		photo: '/images/members/j.jpg',
+		link: 'https://www.linkedin.com/in//',
 	},
 	{
-		name: 'Easin Arafat',
+		name: 'Team ui/ux',
 		role: 'UI/UX designer',
-		photo: '/images/members/easin-arafat.jpg',
+		photo: '/images/members/.jpg',
 		link: 'https://www.linkedin.com/in/uxeasin/',
+	},
+	{
+		name: 'Senior full stack Dev',
+		role: 'Senior blockchain dev',
+		photo: '/images/members/.jpg',
+		link: 'https://www.linkedin.com/in//',
 	},
 ];
 
-/* 
-	{
-		name: 'Łukasz Korba',
-		role: 'Senior blockchain dev',
-		photo: '/images/members/lukasz-korba.jpg',
-		link: 'https://www.linkedin.com/in/korba-lukasz/',
-	}, */
+	

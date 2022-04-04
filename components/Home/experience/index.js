@@ -5,19 +5,19 @@ import { useRouter } from 'next/router';
 
 const projects = [
 	{
-		companyName: 'everdome.io',
+		companyName: 'soon.it',
 		title: 'Metaverse',
 	},
 	{
-		companyName: 'articleverse.com',
+		companyName: 'soon.io',
 		title: 'Article Verse',
 	},
 	{
-		companyName: 'globeradius.com',
+		companyName: 'example.io',
 		title: 'Globe Radius',
 	},
 	{
-		companyName: 'loungeverse.com',
+		companyName: 'versoverse.io',
 		title: 'Lounge Verse',
 	},
 ];

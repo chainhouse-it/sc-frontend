@@ -23,10 +23,8 @@ export default function Roadmap() {
 						Q1-2022
 					</p>
 				</div>
-		<div className='w-full text-[18px] flex justify-between leading-[50px] py-16 items-center text-center font-semibold lg:flex-col lg:w-full lg:gap-5 '>
-				<div className='w-1/5 border-b-2 bottom-border-gradient lg:w-full'>
-					<p className='bg-clip-text bg-gradient-to-br from-[#02FE85] to-[#02FED1] text-transparent cursor-pointer'>
-						Q2-2022
+		<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
+					<p className='text-[#62616F] cursor-pointer'>Q2-2022</p>
 				</div>
 				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
 					<p className='text-[#62616F] cursor-pointer'>Q3-2022</p>

@@ -20,7 +20,7 @@ const Experience = () => {
 						<Title text='Experience' />
 						<SmallHeader text='What is web 3.0?' />
 						<p className='paragraph mt-[25px] leading-[] '>
-							Web2 is an internet dominated by companies that
+							Web 3 is an internet dominated by companies that
 							provide services in exchange for our personal data.
 							Web3 in context refers to decentralized applications
 							that run on a blockchain. These are applications

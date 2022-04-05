@@ -20,10 +20,13 @@ export default function Roadmap() {
 			<div className='w-full text-[18px] flex justify-between leading-[50px] py-16 items-center text-center font-semibold lg:flex-col lg:w-full lg:gap-5 '>
 				<div className='w-1/5 border-b-2 bottom-border-gradient lg:w-full'>
 					<p className='bg-clip-text bg-gradient-to-br from-[#02FE85] to-[#02FED1] text-transparent cursor-pointer'>
-						Q1-2022
+						Q4-2021
 					</p>
 				</div>
-		<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
+				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
+					<p className='text-[#62616F] cursor-pointer'>Q1-2022</p>
+				</div>
+				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
 					<p className='text-[#62616F] cursor-pointer'>Q2-2022</p>
 				</div>
 				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
@@ -31,9 +34,6 @@ export default function Roadmap() {
 				</div>
 				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
 					<p className='text-[#62616F] cursor-pointer'>Q4-2022</p>
-				</div>
-				<div className='w-1/5 border-b-2 border-[#62616F] lg:w-full'>
-					<p className='text-[#62616F] cursor-pointer'>Q1-2023</p>
 				</div>
 			</div>
 
@@ -73,6 +73,6 @@ const roadmapElements = [
 	{ content: 'Establishing a software house strategy', isDone: true },
 	{ content: 'Creating marketing strategy', isDone: true },
 	{ content: 'Design and construction of the website', isDone: false },
-	{ content: 'Getting acquainted with the first customers', isDone: true },
-	{ content: 'Work on the first project', isDone: true },
+	{ content: 'Getting acquainted with the first customers', isDone: false },
+	{ content: 'Work on the first project', isDone: false },
 ];

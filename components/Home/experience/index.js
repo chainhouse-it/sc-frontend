@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 const projects = [
 	{
 		companyName: 'soon.it',
-		title: 'Metaverse',
+		title: 'Metaversee',
 	},
 	{
 		companyName: 'soon.io',

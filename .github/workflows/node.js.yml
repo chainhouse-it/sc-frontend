@@ -30,6 +30,7 @@ jobs:
                   port: ${{ secrets.PORT }}
                   script: |
                       cd /root/github/sc-frontend
+                      git reset --hard
                       git pull
                       export NVM_DIR=~/.nvm
                       source ~/.nvm/nvm.sh

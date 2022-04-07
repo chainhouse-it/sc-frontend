@@ -73,6 +73,6 @@ const roadmapElements = [
 	{ content: 'Establishing a software house strategy', isDone: true },
 	{ content: 'Creating marketing strategy', isDone: true },
 	{ content: 'Design and construction of the website', isDone: false },
-	{ content: 'Getting acquainted with the first customers', isDone: false },
-	{ content: 'Work on the first project', isDone: false },
+	{ content: 'Getting acquainted with the first customers', isDone: true },
+	{ content: 'Work on the first project', isDone: true },
 ];
